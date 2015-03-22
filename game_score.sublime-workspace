@@ -1,0 +1,1671 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"butt",
+				"button-text-color"
+			],
+			[
+				"se",
+				"secondary-text-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"word",
+				"word_id"
+			],
+			[
+				"id",
+				"word_id"
+			],
+			[
+				"current",
+				"currentWord"
+			],
+			[
+				"ran",
+				"randomNumber"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"model",
+				"modelFor"
+			],
+			[
+				"w",
+				"wordList"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"B",
+				"B0B7AC"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"link",
+				"link-to"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"showHi",
+				"showHideTieBreakFields"
+			],
+			[
+				"numb",
+				"numberOfSetsText"
+			],
+			[
+				"number",
+				"number-of-sets-text"
+			],
+			[
+				"show",
+				"showHideSets"
+			],
+			[
+				"match",
+				"match_type"
+			],
+			[
+				"tieBra",
+				"tieBreakAt"
+			],
+			[
+				"scor",
+				"scoreSt"
+			],
+			[
+				"first",
+				"firstServePointsWon"
+			],
+			[
+				"opp",
+				"opponentSetScore"
+			],
+			[
+				"player",
+				"playerSetScore"
+			],
+			[
+				"set",
+				"setNumber"
+			],
+			[
+				"s",
+				"setNumber"
+			],
+			[
+				"t",
+				"team_1_set_score"
+			],
+			[
+				"te",
+				"team_2_set_score"
+			],
+			[
+				"team",
+				"team_1_set_score"
+			],
+			[
+				"op",
+				"opponentGameScore"
+			],
+			[
+				"the",
+				"thedevice"
+			],
+			[
+				"dev",
+				"deviceYResolution"
+			],
+			[
+				"de",
+				"deviceXResolution"
+			],
+			[
+				"sh",
+				"showOnTopHalf"
+			],
+			[
+				"ne",
+				"netLine"
+			],
+			[
+				"num",
+				"numberOfSetsText"
+			],
+			[
+				"scorin",
+				"scoringStrategy"
+			],
+			[
+				"ad",
+				"adScoring"
+			],
+			[
+				"points",
+				"pointsFromSet"
+			],
+			[
+				"three",
+				"threeSetWithTieBreak"
+			],
+			[
+				"mat",
+				"matchTypes"
+			],
+			[
+				"four",
+				"fourGameSetWithoutTieBreakAnd10PtThirdSet"
+			],
+			[
+				"app",
+				"app_player_name"
+			],
+			[
+				"mart",
+				"margin-right"
+			],
+			[
+				"play",
+				"playerIntraSetMomentum"
+			],
+			[
+				"o",
+				"opponentPointsFromSet"
+			],
+			[
+				"in",
+				"intraSetMomentum"
+			],
+			[
+				"pla",
+				"playerPointsFromSet"
+			],
+			[
+				"won",
+				"wonGame"
+			],
+			[
+				"get",
+				"get_app_player_id"
+			],
+			[
+				"chart",
+				"chart_params"
+			],
+			[
+				"over",
+				"overallRecord"
+			],
+			[
+				"point",
+				"pointsFromGame"
+			],
+			[
+				"brak",
+				"break_point"
+			],
+			[
+				"generateR",
+				"generateRalliesView"
+			],
+			[
+				"rallies",
+				"ralliesArray"
+			],
+			[
+				"generate",
+				"generateRallyDonutData"
+			],
+			[
+				"game",
+				"gameMomentum"
+			],
+			[
+				"last",
+				"lastPoint"
+			],
+			[
+				"gen",
+				"generateRallyStats"
+			],
+			[
+				"generateRa",
+				"generateRallyStats"
+			],
+			[
+				"ten",
+				"tenPlusPercentage"
+			],
+			[
+				"fiveTo",
+				"fiveToNinePercentage"
+			],
+			[
+				"oneTo",
+				"oneToFourWins"
+			],
+			[
+				"tenP",
+				"tenPlusWins"
+			],
+			[
+				"tenPlu",
+				"tenPlusTotal"
+			],
+			[
+				"five",
+				"fiveToNineWins"
+			],
+			[
+				"fiveT",
+				"fiveToNineTotal"
+			],
+			[
+				"one",
+				"oneToFourTotal"
+			],
+			[
+				"is",
+				"isBreakPoint"
+			],
+			[
+				"break",
+				"break_point"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fs",
+				"fsycoord"
+			],
+			[
+				"fx",
+				"fsxcoord"
+			],
+			[
+				"tenni",
+				"tennis_points"
+			],
+			[
+				"tennis",
+				"tennis_games"
+			],
+			[
+				"d",
+				"date_range_from"
+			],
+			[
+				"date",
+				"date_to"
+			],
+			[
+				"sub",
+				"sub_query"
+			],
+			[
+				"calculate",
+				"calculateBreakPointConversions"
+			],
+			[
+				"brea",
+				"breakPoints"
+			],
+			[
+				"calc",
+				"calculateFirstServePointsWon"
+			],
+			[
+				"fir",
+				"firstServesWon"
+			],
+			[
+				"cal",
+				"calculateWinners"
+			],
+			[
+				"dou",
+				"doubleFaults"
+			],
+			[
+				"br",
+				"createBreakPointConversionsView"
+			],
+			[
+				"c",
+				"createSecondServePointsWonView"
+			],
+			[
+				"create",
+				"createFirstServePointsWonView"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ser",
+				"server_score_current"
+			],
+			[
+				"serv",
+				"server_score_prev"
+			],
+			[
+				"box",
+				"box-color"
+			],
+			[
+				"on",
+				"one_to_four_percentage"
+			],
+			[
+				"serve",
+				"serve_percentages"
+			],
+			[
+				"fin",
+				"five_to_nine_count"
+			],
+			[
+				"ra",
+				"rally_count"
+			],
+			[
+				"match_player",
+				"match_player_2_id"
+			],
+			[
+				"find",
+				"find_by_user_id"
+			],
+			[
+				"P",
+				"Players"
+			],
+			[
+				"str",
+				"stripe_subscription_list"
+			],
+			[
+				"def",
+				"default_player"
+			],
+			[
+				"showing",
+				"showing_player_id"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"si",
+				"sign_in"
+			],
+			[
+				"default",
+				"default_player_id"
+			],
+			[
+				"assert",
+				"assert_equal"
+			],
+			[
+				"cl",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"form",
+				"form-text"
+			],
+			[
+				"tea",
+				"team_2_set_score"
+			],
+			[
+				"matche",
+				"match_details"
+			],
+			[
+				"matc",
+				"match_details"
+			],
+			[
+				"event",
+				"event_name"
+			],
+			[
+				"l",
+				"line"
+			],
+			[
+				"cr",
+				"createSection"
+			],
+			[
+				"ret",
+				"redirect_to"
+			],
+			[
+				"re",
+				"redirect_to"
+			],
+			[
+				"un",
+				"unprocessable_entity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/environment.js",
+			"settings":
+			{
+				"buffer_size": 1216,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes/score.js",
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/score.hbs",
+			"settings":
+			{
+				"buffer_size": 415,
+				"line_ending": "Unix",
+				"name": "<!-- app/templates/posts.hbs -->"
+			}
+		},
+		{
+			"file": "app/router.js",
+			"settings":
+			{
+				"buffer_size": 218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/score.js",
+			"settings":
+			{
+				"buffer_size": 462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/score.js",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/application.hbs",
+			"settings":
+			{
+				"buffer_size": 11,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# Game-score\n\nThis README outlines the details of collaborating on this Ember application.\nA short introduction of this app could easily go here.\n\n## Prerequisites\n\nYou will need the following things properly installed on your computer.\n\n* [Git](http://git-scm.com/)\n* [Node.js](http://nodejs.org/) (with NPM)\n* [Bower](http://bower.io/)\n* [Ember CLI](http://www.ember-cli.com/)\n* [PhantomJS](http://phantomjs.org/)\n\n## Installation\n\n* `git clone <repository-url>` this repository\n* change into the new directory\n* `npm install`\n* `bower install`\n\n## Running / Development\n\n* `ember server`\n* Visit your app at [http://localhost:4200](http://localhost:4200).\n\n### Code Generators\n\nMake use of the many generators for code, try `ember help generate` for more details\n\n### Running Tests\n\n* `ember test`\n* `ember test --server`\n\n### Building\n\n* `ember build` (development)\n* `ember build --environment production` (production)\n\n### Deploying\n\n\n\n## Further Reading / Useful Links\n\n* [ember.js](http://emberjs.com/)\n* [ember-cli](http://www.ember-cli.com/)\n* Development Browser Extensions\n  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)\n  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)\n\n",
+			"file": "README.md",
+			"file_size": 1351,
+			"file_write_time": 1427006559000000,
+			"settings":
+			{
+				"buffer_size": 1310,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"xi",
+				"Create Xiki Buffer"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alex/Documents/Websites/game_score/app/routes/posts/index.js",
+		"/Users/alex/Documents/Websites/game_score/tests/unit/models/post-test.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/lists/index.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/styles/_colors.scss",
+		"/Users/alex/Documents/Websites/slovnik/app/styles/_base.scss",
+		"/Users/alex/Documents/Websites/slovnik/app/styles/_classes.scss",
+		"/Users/alex/Documents/Websites/slovnik/app/styles/_responsive.scss",
+		"/Users/alex/Documents/Websites/slovnik/app/styles/app.scss",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/lists/quiz.js",
+		"/Users/alex/Documents/Websites/slovnik/app/app.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/lists/quiz.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/lists/quiz.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/index.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/lists/show.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/application.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/about.hbs",
+		"/Users/alex/Documents/Websites/slovnik/config/environment.js",
+		"/Users/alex/Documents/Websites/slovnik/app/helpers/google-analytics.js",
+		"/Users/alex/Documents/Websites/slovnik/app/router.js",
+		"/Users/alex/Documents/Websites/slovnik/app/styles/app.css",
+		"/Users/alex/Documents/Websites/slovnik/app/index.html",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/application.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/about.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/google_analytics.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/components/google-analytics.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/components/google-analytics.js",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/index.js",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/lists/show.js",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/words/new.js",
+		"/Users/alex/Documents/Websites/slovnik/app/models/list.js",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/words/update.js",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/words/new.js",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/words/delete.js",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/lists.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/words/index.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/words.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/words/delete.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/words/delete.js",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/lists/update.js",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/lists/new.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/lists/delete.hbs",
+		"/Users/alex/Documents/Websites/slovnik/dist/assets/slovnik.js",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/application.js",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/lists/show.js",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/lists/index.js",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/list.js",
+		"/Users/alex/Documents/Websites/slovnik/app/controllers/lists/new.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/lists.hbs",
+		"/Users/alex/Documents/Websites/slovnik/app/routes/list/new.js",
+		"/Users/alex/Documents/Websites/slovnik/app/templates/quiz.hbs",
+		"/Users/alex/Documents/Websites/slovnik/.gitignore",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/list/new.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/index.html",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/application.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/sass/style.scss",
+		"/Users/alex/Documents/Projects/slovnik/sass/partials/_classes.scss",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/list/quiz.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/router.js",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/words/update.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/controllers/list_controller.js",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/list/show.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/words/delete.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/sass/partials/_fonts.scss",
+		"/Users/alex/Documents/Websites/advanced-training-emberconf-2014/ConferenceNotes.txt",
+		"/Users/alex/Documents/Projects/slovnik/icomoon (1)/fonts/icomoon.eot",
+		"/Users/alex/Documents/Projects/slovnik/js/models/word.js",
+		"/Users/alex/Documents/Projects/slovnik/js/controllers/words_controller.js",
+		"/Users/alex/Documents/Projects/slovnik/js/models/list.js",
+		"/Users/alex/Documents/Projects/slovnik/sass/partials/_base.scss",
+		"/Users/alex/Documents/footer.php",
+		"/Users/alex/Documents/Projects/slovnik/html-header.php",
+		"/Users/alex/Documents/Projects/slovnik/header.php",
+		"/Users/alex/Documents/Projects/slovnik/dist/temp.min.js",
+		"/Users/alex/Documents/Projects/slovnik/js/controllers/index_controller.js",
+		"/Users/alex/Documents/Projects/slovnik/js/libs/ember-1.4.0.js",
+		"/Users/alex/Documents/Projects/slovnik/Notes.txt",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/list/update.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/list/delete.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/lists.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/sass/partials/_colors.scss",
+		"/Users/alex/Documents/Projects/slovnik/js/libs/ember-data-1.0.0-beta.7.js",
+		"/Users/alex/Documents/Projects/slovnik/js/app.js",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/words/new.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/app2.js",
+		"/Users/alex/Documents/Projects/slovnik/Gruntfile.js",
+		"/Users/alex/Documents/Projects/slovnik/js/libs/ember-1.3.2.js",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/word/new.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/.jshintrc",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/word.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/libs/jquery-1.10.2.min.js",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/about.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/quiz.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/index.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/sass/partials/_forms.scss",
+		"/Users/alex/Documents/Projects/slovnik/css/style.css",
+		"/Users/alex/Documents/Projects/slovnik/css/sass/style.scss",
+		"/Users/alex/Documents/Projects/slovnik/css/sass/partials/_classes.scss",
+		"/Users/alex/Documents/Projects/slovnik/css/sass/partials/_forms.scss",
+		"/Users/alex/Documents/Projects/slovnik/css/sass/partials/_colors.scss",
+		"/Users/alex/Documents/Projects/slovnik/css/sass/partials/_base.scss",
+		"/Users/alex/Documents/Projects/slovnik/.gitignore",
+		"/Users/alex/Documents/Projects/slovnik/sass/partials/_handheld.scss",
+		"/Users/alex/Documents/Projects/slovnik/js/controllers/application_controller.js",
+		"/Users/alex/Documents/Projects/slovnik/package.json",
+		"/Users/alex/Documents/Projects/slovnik/css/partials/_button.scss",
+		"/Users/alex/Documents/Projects/slovnik/css/style.scss",
+		"/Users/alex/Documents/Projects/slovnik/css/partials/_base.scss",
+		"/Users/alex/Documents/Projects/slovnik/js/controllers/word_controller.js",
+		"/Users/alex/Documents/Projects/slovnik/js/controllers/quiz_controller.js",
+		"/Users/alex/Documents/Projects/slovnik/js/libs/localstorage_adapter.js",
+		"/Users/alex/Documents/Projects/slovnik/about.html",
+		"/Users/alex/Documents/Projects/slovnik/images/logo.png",
+		"/Users/alex/Documents/Projects/slovnik/js/libs/ember-data.js",
+		"/Users/alex/Documents/Websites/mytennisstats/app/controllers/application_controller.rb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/partials/_base.scss",
+		"/Users/alex/Documents/Websites/mytennisstats/Gemfile",
+		"/Users/alex/Documents/Websites/mytennisstats/app/views/home/index.html.erb",
+		"/Users/alex/Documents/Websites/mytennisstats/config/routes.rb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/views/devise/registrations/edit.html.erb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/views/charts/_form.html.erb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/partials/_tables.scss",
+		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/site.css.scss",
+		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/partials/_icon_fonts.css.erb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/partials/_forms.scss",
+		"/Users/alex/Documents/Websites/mytennisstats/app/views/settings/index.html.erb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/views/matches/index.html.erb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/controllers/matches_controller.rb",
+		"/Users/alex/Documents/Websites/mytennisstats/app/views/layouts/application.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/alex/Documents/Websites/slovnik/app",
+			"<open folders>",
+			"/Users/alex/Documents/Projects/slovnik/css,<open folders>",
+			"/Users/alex/Documents/Projects/slovnik/css",
+			"<open folders>",
+			"/Users/alex/Documents/Websites/mytennisstats/app/assets/javascripts/view_specific",
+			"<open folders>",
+			"/Users/alex/Documents/Websites/mytennisstats/app/assets/javascripts/view_specific/charts/match_types/game_types",
+			"<open folders>",
+			"/Users/alex/Documents/Websites/mytennisstats/app/helpers,<open folders>",
+			"/Users/alex/Documents/Ruby/mytennisstats,<open folders>",
+			"/Users/alex/Documents/Ruby/mytennisstats",
+			"/Users/alex/Documents/Ruby/AWalkAbout/app/views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{{",
+			": DS.attr('number'),",
+			": DS.attr('string'),",
+			"string",
+			"Hits",
+			"debugger",
+			"<p",
+			"tranistionTo",
+			"link-",
+			"afterModel",
+			"#",
+			"$border-color",
+			"border-color",
+			"#b0b7ac",
+			"#",
+			"debugger",
+			"homeScreen",
+			"fieldset",
+			"logo",
+			"hideOnInit",
+			"hideOnSmall",
+			"showOnSmall",
+			"inserted!",
+			"unless",
+			"currentPath",
+			"right",
+			"<h2",
+			"/* line",
+			"class=\"hideOnInit\" ",
+			"style=",
+			"show words",
+			"debugger",
+			"{{action",
+			"list.show",
+			"list",
+			"listsController",
+			"listController",
+			"list.quiz",
+			"ListShowController",
+			"injectFixtures",
+			"Delete",
+			"first",
+			"type",
+			"\"",
+			"word",
+			"list",
+			"</li>",
+			"<li>",
+			"article",
+			"currentModel",
+			"currentWord",
+			"\"",
+			"quiz.index",
+			"quiz.show",
+			"quiz.index",
+			"(\n",
+			"debugger;",
+			"post",
+			"word",
+			"\"",
+			"description",
+			"createWord",
+			"description",
+			"jquery-1.10.2",
+			"Ember.TEMP",
+			"background",
+			"h3",
+			"{\n",
+			"color",
+			"word_",
+			"words_contro",
+			">\n",
+			"form",
+			"newWor",
+			"...\"\n",
+			"resource",
+			"definition",
+			"word",
+			"title",
+			"current_score",
+			"threeSetWithTieBreak",
+			"reset_password_instructions",
+			"mandril",
+			"1em",
+			"assets",
+			"fourcol",
+			"}",
+			"radio",
+			"f.label",
+			"<br />",
+			"</div>",
+			"<div>",
+			"Cancel my account",
+			"button",
+			"threecol last",
+			"fourcol",
+			"numberOfSets",
+			"two-wide",
+			"momentum",
+			"generate",
+			"),\n",
+			"calculateFirstServePointsWon",
+			"generateMatchByMatchView",
+			"calculateSecondServePointsWon",
+			"momentum-view",
+			"momentum-chart",
+			"generateMomentumView",
+			"Wins",
+			"wins/losses",
+			"pointsFromTieBreak",
+			"pointsFromSet",
+			"opponentGameScore",
+			"playerGameScore",
+			"generateServesView",
+			"serve",
+			"points",
+			"generateServesView",
+			"debugger",
+			"total_games",
+			"total_points",
+			"debugger",
+			"generateServesView",
+			"'",
+			"dashboard",
+			"includeServe",
+			"serves",
+			"generateServesView",
+			"var"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"C4",
+			"quarter"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/environment.js",
+					"settings":
+					{
+						"buffer_size": 1216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/routes/score.js",
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/score.hbs",
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!-- app/templates/posts.hbs -->",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/router.js",
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/score.js",
+					"settings":
+					{
+						"buffer_size": 462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/score.js",
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/templates/application.hbs",
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 258.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"post",
+				"tests/unit/models/post-test.js"
+			],
+			[
+				"env",
+				"config/environment.js"
+			],
+			[
+				"show",
+				"app/templates/lists/show.hbs"
+			],
+			[
+				"quiz",
+				"app/templates/lists/quiz.hbs"
+			],
+			[
+				"delete",
+				"app/templates/lists/delete.hbs"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"app",
+				"app/app.js"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"about",
+				"app/templates/about.hbs"
+			],
+			[
+				"router",
+				"app/router.js"
+			],
+			[
+				"route",
+				"app/router.js"
+			],
+			[
+				"rou",
+				"js/router.js"
+			],
+			[
+				"appl",
+				"js/templates/application.handlebars"
+			],
+			[
+				"rout",
+				"js/router.js"
+			],
+			[
+				"list",
+				"js/models/list.js"
+			],
+			[
+				"word",
+				"js/models/word.js"
+			],
+			[
+				"router.js",
+				"js/router.js"
+			],
+			[
+				"lis",
+				"js/controllers/list_controller.js"
+			],
+			[
+				"notes",
+				"Notes.txt"
+			],
+			[
+				"_colo",
+				"sass/partials/_colors.scss"
+			],
+			[
+				"_base",
+				"sass/partials/_base.scss"
+			],
+			[
+				"temp",
+				"dist/temp.min.js"
+			],
+			[
+				"",
+				"js/router.js"
+			],
+			[
+				"_forms",
+				"sass/partials/_forms.scss"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"st",
+				"css/style.css"
+			],
+			[
+				"match",
+				"app/models/match.rb"
+			],
+			[
+				"s",
+				"db/schema.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"settings",
+				"app/views/settings/index.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"matches",
+				"app/views/matches/index.html.erb"
+			],
+			[
+				"dash",
+				"app/views/charts/dashboard.html.erb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"momen",
+				"app/assets/javascripts/chart_dashboard/views/momentum.js"
+			],
+			[
+				"dashboard.h",
+				"app/views/charts/dashboard.html.erb"
+			],
+			[
+				"event",
+				"app/assets/javascripts/chart_dashboard/modules/events.js"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"site.",
+				"app/assets/stylesheets/site.css.scss"
+			],
+			[
+				"dashboard",
+				"app/views/charts/dashboard.html.erb"
+			],
+			[
+				"helpes",
+				"app/assets/javascripts/chart_dashboard/modules/helpers.js"
+			],
+			[
+				"no",
+				"Notes.txt"
+			],
+			[
+				"serves",
+				"app/assets/javascripts/chart_dashboard/views/serves.js"
+			],
+			[
+				"tennis_set",
+				"app/models/tennis_set.rb"
+			],
+			[
+				"profile",
+				"app/models/profile.rb"
+			],
+			[
+				"mat",
+				"test/unit/match_test.rb"
+			],
+			[
+				"matc",
+				"app/models/match.rb"
+			],
+			[
+				"over",
+				"test/javascripts/chart_dashboard/views/overview_test.js"
+			],
+			[
+				"helpers",
+				"app/assets/javascripts/chart_dashboard/modules/helpers.js"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"das",
+				"app/assets/javascripts/chart_dashboard/dashboard.js"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"overview",
+				"app/assets/javascripts/chart_dashboard/views/overview.js"
+			],
+			[
+				"full",
+				"doc/full_match.json"
+			],
+			[
+				"momentum",
+				"app/assets/javascripts/view_specific/charts/momentum.js"
+			],
+			[
+				"charts",
+				"app/controllers/charts_controller.rb"
+			],
+			[
+				"tennis",
+				"test/fixtures/tennis_sets.yml"
+			],
+			[
+				"matches.y",
+				"test/fixtures/matches.yml"
+			],
+			[
+				"players",
+				"app/controllers/players_controller.rb"
+			],
+			[
+				"site",
+				"app/assets/stylesheets/site.css.scss"
+			],
+			[
+				"dashboard.js",
+				"app/assets/javascripts/view_specific/charts/dashboard.js"
+			],
+			[
+				"moment",
+				"test/javascripts/dashboard/momentum_test.js"
+			],
+			[
+				"testhelpers",
+				"test/javascripts/dashboard/helpers_test.js"
+			],
+			[
+				"slider",
+				"app/assets/stylesheets/partials/_slider.css"
+			],
+			[
+				"da",
+				"app/views/charts/dashboard.html.erb"
+			],
+			[
+				"matchselect",
+				"app/services/match_selector.rb"
+			],
+			[
+				"player",
+				"app/models/player.rb"
+			],
+			[
+				"chartscon",
+				"app/controllers/charts_controller.rb"
+			],
+			[
+				"statsconrol",
+				"test/functional/charts_controller_test.rb"
+			],
+			[
+				"sty",
+				"app/assets/stylesheets/site.css.scss"
+			],
+			[
+				"matchselector",
+				"app/services/match_selector.rb"
+			],
+			[
+				"char",
+				"app/controllers/charts_controller.rb"
+			],
+			[
+				"dashbtest",
+				"test/javascripts/dashboard/dashboard_test.js"
+			],
+			[
+				"ful",
+				"doc/full_match.json"
+			],
+			[
+				"dashboardte",
+				"test/javascripts/dashboard/dashboard_test.js"
+			],
+			[
+				"serves.js",
+				"app/assets/javascripts/view_specific/charts/serves.js"
+			],
+			[
+				"dashboardtest",
+				"test/javascripts/dashboard/test_dashboard.js"
+			],
+			[
+				".yml",
+				"test/fixtures/matches.yml"
+			],
+			[
+				"match_select",
+				"test/unit/services/match_selector_test.rb"
+			],
+			[
+				"testdashboar",
+				"test/javascripts/dashboard/test_dashboard.js"
+			],
+			[
+				"mom",
+				"app/views/charts/momentum.html.erb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"matchrepor",
+				"app/services/match_report.rb"
+			],
+			[
+				"chart",
+				"app/controllers/charts_controller.rb"
+			],
+			[
+				"momem",
+				"app/views/charts/momentum.html.erb"
+			],
+			[
+				"matchescon",
+				"app/controllers/matches_controller.rb"
+			],
+			[
+				"chart_s",
+				"app/views/shared/_chart_selection.html.erb"
+			],
+			[
+				"charts.html",
+				"app/views/charts/index.html.erb"
+			],
+			[
+				"sc",
+				"db/schema.rb"
+			],
+			[
+				"r",
+				"config/routes.rb"
+			],
+			[
+				"charges",
+				"app/views/charges/new.html.erb"
+			],
+			[
+				"d",
+				"test/functional/dashboard_controller_test.rb"
+			],
+			[
+				"shoing",
+				"app/views/shared/_showing_data_for.html.erb"
+			],
+			[
+				".css",
+				"app/assets/stylesheets/site.css.scss"
+			],
+			[
+				"matchre",
+				"app/services/match_report.rb"
+			],
+			[
+				"change",
+				"test/integration/change_view_data_for_test.rb"
+			],
+			[
+				"set_default",
+				"test/integration/set_default_user_test.rb"
+			],
+			[
+				"user_test",
+				"test/unit/user_test.rb"
+			],
+			[
+				"setting",
+				"app/controllers/settings_controller.rb"
+			],
+			[
+				"token",
+				"test/functional/tokens_controller_test.rb"
+			],
+			[
+				"_form",
+				"app/views/profiles/_form.html.erb"
+			],
+			[
+				"regu",
+				"test/integration/regular_user_test.rb"
+			],
+			[
+				"controller",
+				"app/controllers/matches_controller.rb"
+			],
+			[
+				"testpl",
+				"test/functional/players_controller_test.rb"
+			],
+			[
+				"models/user",
+				"app/models/user.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/alex/Documents/Websites/slovnik/slovnik.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true
+}

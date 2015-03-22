@@ -1,0 +1,17 @@
+<section>
+{{#each score in model}}
+
+<h1>{{score.team1Name}} vs. {{score.team2Name}}</h1>
+
+<h2>{{score.team1Runs}} to {{score.team2Runs}}</h2>
+<div>Hits: {{score.team1Hits}} : {{score.team2Hits}}</div>
+<div>Errors: {{score.team1Errors}} : {{score.team2Errors}}</div>
+
+<div>Pitching: {{score.pitching}}</div>
+<div>At Bat: {{score.atBat}}</div>
+
+{{/each}}
+
+<!-- <button {{action 'update'}}>Add</button> -->
+
+</section>

@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'game-score',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    firebase: 'https://crackling-heat-9715.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
