@@ -1,14 +1,59 @@
 <section>
 
 <fieldset>
-  <label>Pitching</label>
-  {{input type="text" value=model.pitching}}
-</fieldset>
-<fieldset>
-  <label>Batting</label>
-  {{input type="text" value=model.atBat}}
+  <label>Team1</label>
+  {{input type="text" value=model.team1Name action="update" on="enter"}}
 </fieldset>
 
-<button {{action 'update'}}>Update</button>
+<fieldset>
+  <label>Team2</label>
+  {{input type="text" value=model.team2Name action="update" on="enter"}}
+</fieldset>
+
+<fieldset>
+  <label>{{model.topBottom}}<button {{action 'toggle' 'topBottom'}}>+</button>
+    of the {{model.inning}}
+    <button {{action 'valueUp' 'inning'}}>+</button>
+  <button {{action 'valueDown' 'inning'}}>-</button>
+  </label>
+</fieldset>
+
+<fieldset>
+  <label>{{model.team1Name}}
+    Runs: {{model.team1Runs}}
+    Hits: {{model.team1Hits}}
+    Errors: {{model.team1Errors}}
+  </label>
+  <button {{action 'valueUp' 'team1Runs'}}>+</button>
+  <button {{action 'valueDown' 'team1Runs'}}>-</button>
+  <button {{action 'valueUp' 'team1Hits'}}>+</button>
+  <button {{action 'valueDown' 'team1Hits'}}>-</button>
+  <button {{action 'valueUp' 'team1Errors'}}>+</button>
+  <button {{action 'valueDown' 'team1Errors'}}>-</button>
+</fieldset>
+
+<fieldset>
+  <label>{{model.team2Name}}
+    Runs: {{model.team2Runs}}
+    Hits: {{model.team2Hits}}
+    Errors: {{model.team2Errors}}
+  </label>
+  <button {{action 'valueUp' 'team2Runs'}}>+</button>
+  <button {{action 'valueDown' 'team2Runs'}}>-</button>
+  <button {{action 'valueUp' 'team2Hits'}}>+</button>
+  <button {{action 'valueDown' 'team2Hits'}}>-</button>
+  <button {{action 'valueUp' 'team2Errors'}}>+</button>
+  <button {{action 'valueDown' 'team2Errors'}}>-</button>
+</fieldset>
+
+<fieldset>
+  <label>Pitching</label>
+  {{input type="text" value=model.pitching action="update" on="enter"}}
+</fieldset>
+
+<fieldset>
+  <label>Batting</label>
+  {{input type="text" value=model.atBat action="update" on="enter"}}
+</fieldset>
 
 </section>
