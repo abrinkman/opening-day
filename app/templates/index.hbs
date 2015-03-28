@@ -1,41 +1,36 @@
 <section>
 
-{{#each score in model}}
-
   <div class="teams">
-    <h1>{{score.team1Name}} vs. {{score.team2Name}}</h1>
+    <h1>{{model.team1Name}} vs. {{model.team2Name}}</h1>
   </div>
 
   <div class="score">
-    <h2>{{score.team1Runs}} - {{score.team2Runs}}</h2>
+    <h2>{{model.team1Runs}} - {{model.team2Runs}}</h2>
+    <small>{{model.topBottom}} of the {{model.inning}}</small>
   </div>
 
   <div class="box-score">
     <div>
-      <span class="box-score-value">{{score.team1Runs}}</span>
-      <span class="box-score-value">{{score.team1Hits}}</span>
-      <span class="box-score-value">{{score.team1Errors}}</span>
+      <span class="box-score-value">{{model.team1Runs}}</span>
+      <span class="box-score-value">{{model.team1Hits}}</span>
+      <span class="box-score-value">{{model.team1Errors}}</span>
     </div>
     <div>
-      <span class="box-score-value">{{score.team2Runs}}</span>
-      <span class="box-score-value">{{score.team2Hits}}</span>
-      <span class="box-score-value">{{score.team2Errors}}</span>
+      <span class="box-score-value">{{model.team2Runs}}</span>
+      <span class="box-score-value">{{model.team2Hits}}</span>
+      <span class="box-score-value">{{model.team2Errors}}</span>
     </div>
   </div>
 
   <div class="info">
     <div>
       <span class="info-left">Pitching:</span>
-      <span class="info-right">{{score.pitching}}</span>
+      <span class="info-right">{{model.pitching}}</span>
     </div>
     <div>
       <span class="info-left">At Bat:</span>
-      <span class="info-right">{{score.atBat}}</span>
+      <span class="info-right">{{model.atBat}}</span>
     </div>
   </div>
-
-{{/each}}
-
-<!-- <button {{action 'update'}}>Add</button> -->
 
 </section>

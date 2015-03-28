@@ -1,0 +1,23 @@
+input[type=text] {
+  font-size: 2em;
+  height: 2em;
+  width: 100%;
+  background-color: $background-color1;
+  border: 1px solid $primary-text-color;
+  color: $primary-text-color;
+}
+
+fieldset {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  border: none;
+  padding-left: 0;
+}
+
+fieldset label {
+  display: block;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  color: $primary-text-color;
+  font-size: 2em;
+}
