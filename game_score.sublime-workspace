@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color1"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"border",
 				"border-color"
 			],
@@ -18,10 +34,6 @@
 			[
 				"backg",
 				"background-color"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"margin",
@@ -42,10 +54,6 @@
 			[
 				"ran",
 				"randomNumber"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"mar",
@@ -316,10 +324,6 @@
 				"margin-right"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"fs",
 				"fsycoord"
 			],
@@ -504,51 +508,10 @@
 	"buffers":
 	[
 		{
-			"file": "config/environment.js",
-			"settings":
-			{
-				"buffer_size": 1216,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes/score.js",
-			"settings":
-			{
-				"buffer_size": 102,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/score.hbs",
-			"settings":
-			{
-				"buffer_size": 415,
-				"line_ending": "Unix",
-				"name": "<!-- app/templates/posts.hbs -->"
-			}
-		},
-		{
-			"file": "app/router.js",
-			"settings":
-			{
-				"buffer_size": 218,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/score.js",
-			"settings":
-			{
-				"buffer_size": 462,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/models/score.js",
 			"settings":
 			{
-				"buffer_size": 385,
+				"buffer_size": 446,
 				"line_ending": "Unix"
 			}
 		},
@@ -561,13 +524,60 @@
 			}
 		},
 		{
-			"contents": "# Game-score\n\nThis README outlines the details of collaborating on this Ember application.\nA short introduction of this app could easily go here.\n\n## Prerequisites\n\nYou will need the following things properly installed on your computer.\n\n* [Git](http://git-scm.com/)\n* [Node.js](http://nodejs.org/) (with NPM)\n* [Bower](http://bower.io/)\n* [Ember CLI](http://www.ember-cli.com/)\n* [PhantomJS](http://phantomjs.org/)\n\n## Installation\n\n* `git clone <repository-url>` this repository\n* change into the new directory\n* `npm install`\n* `bower install`\n\n## Running / Development\n\n* `ember server`\n* Visit your app at [http://localhost:4200](http://localhost:4200).\n\n### Code Generators\n\nMake use of the many generators for code, try `ember help generate` for more details\n\n### Running Tests\n\n* `ember test`\n* `ember test --server`\n\n### Building\n\n* `ember build` (development)\n* `ember build --environment production` (production)\n\n### Deploying\n\n\n\n## Further Reading / Useful Links\n\n* [ember.js](http://emberjs.com/)\n* [ember-cli](http://www.ember-cli.com/)\n* Development Browser Extensions\n  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)\n  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)\n\n",
-			"file": "README.md",
-			"file_size": 1351,
-			"file_write_time": 1427006559000000,
+			"file": "app/routes/index.js",
 			"settings":
 			{
-				"buffer_size": 1310,
+				"buffer_size": 102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_base.scss",
+			"settings":
+			{
+				"buffer_size": 2141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/index.hbs",
+			"settings":
+			{
+				"buffer_size": 613,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 26024 files for \"hover-color\"\n\n/Users/alex/Documents/Websites/opening_day/app/styles/_base.scss:\n   92  \n   93  button:hover {\n   94:   background-color: $hover-color;\n   95  }\n   96  \n\n/Users/alex/Documents/Websites/opening_day/dist/assets/game-score.css.map:\n   11  	\"sourcesContent\": [\n   12  		\"@import 'colors';\\n@import 'base';\\n@import 'classes';\\n@import 'responsive';\\n\",\n   13: 		\"$background-color: #35373f;\\n$background-color2: #2e3038;\\n$hover-color: #435662;\\n$primary-text-color: #c82c37;\\n$secondary-text-color: #b9c899;\\n$button-text-color: #eeeeee;\\n\\n\\n\",\n   14: 		\"* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  background: $background-color;\\n  font-family: 'Open Sans', sans-serif;\\n  font-weight: 300;\\n  color: white;\\n  line-height: 2em;\\n  width: 100%;\\n  max-width: 800px;\\n  margin: 0 auto;\\n  text-align: center;\\n}\\n\\nh1, h2, h3 {\\n  font-weight: 300;\\n  line-height: 1em;\\n  margin-bottom: 1em;\\n}\\n\\nh1 {\\n  font-size: 3em;\\n}\\n\\nh2 {\\n  color: $secondary-text-color;\\n  font-size: 2em;\\n}\\n\\nh2 a {\\n  text-decoration: none;\\n  color: white;\\n}\\n\\nh2 a:hover {\\n  color: $secondary-text-color;\\n}\\n\\nh3 {\\n  color: $primary-text-color;\\n  font-size: 1.1em;\\n  line-height: 2em;\\n}\\n\\np, ul {\\n  margin-bottom: 1em;\\n  letter-spacing: 1px;\\n  padding: 0;\\n  list-style-position: inside;\\n}\\n\\na {\\n  color: $secondary-text-color;\\n  text-decoration: underline;\\n  letter-spacing: 2px;\\n}\\n\\na:hover {\\n  color: white;\\n  text-decoration: none;\\n}\\n\\nbutton {\\n  -webkit-transition-property: background-color;\\n  -moz-transition-property: background-color;\\n  -o-transition-property: background-color;\\n  transition-property: background-color;\\n  -webkit-transition-duration: 0.3s;\\n  -moz-transition-duration: 0.3s;\\n  -o-transition-duration: 0.3s;\\n  transition-duration: 0.3s;\\n  -webkit-transition-timing-function: ease-in;\\n  -moz-transition-timing-function: ease-in;\\n  -o-transition-timing-function: ease-in;\\n  transition-timing-function: ease-in;\\n  background: none repeat scroll 0 0 $secondary-text-color;\\n  border: medium none;\\n  color: $button-text-color;\\n  cursor: pointer;\\n  font-size: 1.2em;\\n  font-weight: bold;\\n  height: 3em;\\n  width: 10em;\\n  text-transform: uppercase;\\n  padding-left: 10px;\\n  padding-right: 10px;\\n  margin-top: 10px;\\n  margin-right: 1em;\\n}\\n\\nbutton:hover {\\n  background-color: $hover-color;\\n}\\n\\n::selection {\\n  background: $secondary-text-color;\\n}\\n\\ninput[type=text] {\\n  font-size: 2em;\\n  height: 2em;\\n  width: 100%;\\n  background-color: $background-color;\\n  border: 1px solid $primary-text-color;\\n  color: $primary-text-color;\\n}\\n\\nfieldset {\\n  margin: 0 0 20px 0;\\n  font-size: 14px;\\n  border: none;\\n  padding-left: 0;\\n}\\n\\nfieldset label {\\n  display: block;\\n  margin: 0 0 5px 0;\\n  font-weight: bold;\\n  color: $primary-text-color;\\n  font-size: 2em;\\n}\",\n   15  		\".note {\\n  font-style: italic;\\n  font-size: .9em;\\n  color: $button-text-color;\\n}\\n\\n.left {\\n  width: 50%;\\n  float: left;\\n  padding-left: 2.5em;\\n  text-align: center;\\n}\\n\\n.right {\\n  width: 50%;\\n  float: right;\\n  padding-right: 2.5em;\\n  padding-top: 2em;\\n  text-align: center;\\n}\\n\\n.clickable-area {\\n  text-decoration: none;\\n}\\n\\n.no-space {\\n  margin-bottom: .3em;\\n}\",\n   16  		\"@media only screen and (max-width: 580px) {\\n\\n  body {\\n    padding: 0 1em;\\n  }\\n\\n  nav {\\n    text-align: center;\\n  }\\n\\n  h1 {\\n    font-size: 2.5em;\\n  }\\n\\n  button {\\n    margin-right: 0;\\n  }\\n\\n  .right, .left {\\n    width: 100%;\\n    text-align: center;\\n    padding: 0;\\n  }\\n\\n  .home-screen {\\n    margin-top: 1em;\\n  }\\n\\n  ul.links li {\\n    display: inline-block;\\n    list-style: none;\\n    padding: 0 1em;\\n  }\\n\\n}\"\n\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/caching-writer-dest-dir_jGpIqa.tmp\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/adapters/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/controllers/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/initializers/app-version.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/initializers/export-application-global.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/models/post.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/models/score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/routes/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-027xCwRl.tmp/game-score/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/test-helper.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/helpers/resolver.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/helpers/start-app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/unit/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/unit/controllers/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-8RygY4MP.tmp/game-score/tests/unit/models/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-fL52RzMy.tmp/assets/game-score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-fL52RzMy.tmp/assets/game-score.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-HkQsqs6D.tmp/assets/test-support.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-HkQsqs6D.tmp/assets/test-support.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-iEGlGrte.tmp/addons.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-iEGlGrte.tmp/addons.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-L2IqEvha.tmp/assets/test-support.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-L2IqEvha.tmp/assets/test-support.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-R0BNnx0p.tmp/assets/test-support.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-symq8TCa.tmp/assets/vendor.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-symq8TCa.tmp/assets/vendor.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-U8GH06L0.tmp/addons.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-uGw98aNs.tmp/assets/vendor.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-ncL7MDC9.tmp/app-boot.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-ncL7MDC9.tmp/app-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-ncL7MDC9.tmp/app-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-ncL7MDC9.tmp/test-support-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-ncL7MDC9.tmp/test-support-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-ncL7MDC9.tmp/vendor-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-ncL7MDC9.tmp/vendor-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-QyZQ9BOO.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-suQNpqyZ.tmp/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-5B14oBwt.tmp/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-a5AIor2f.tmp/vendor/ember-cli/app-boot.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-a5AIor2f.tmp/vendor/ember-cli/app-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-a5AIor2f.tmp/vendor/ember-cli/app-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-a5AIor2f.tmp/vendor/ember-cli/test-support-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-a5AIor2f.tmp/vendor/ember-cli/test-support-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-a5AIor2f.tmp/vendor/ember-cli/vendor-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-a5AIor2f.tmp/vendor/ember-cli/vendor-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-DNFEhcbc.tmp/assets/test-loader.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-omL4FNB9.tmp/assets/ember-data.js.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-vGYGCB4b.tmp/testem.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/adapters/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/controllers/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/initializers/app-version.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/initializers/export-application-global.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/models/post.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/models/score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/routes/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-n6V5TRy2.tmp/game-score/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/router.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/adapters/application.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/controllers/index.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/models/post.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/models/score.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/routes/index.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fArlTMCx.tmp/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/test-helper.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/helpers/resolver.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/helpers/start-app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/unit/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/unit/controllers/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-QCIFtpI8.tmp/unit/models/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/template_compiler-tmp_dest_dir-HQQHg1E6.tmp/game-score/templates/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/template_compiler-tmp_dest_dir-HQQHg1E6.tmp/game-score/templates/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/template_compiler-tmp_dest_dir-HQQHg1E6.tmp/game-score/templates/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-0ewnj8k9.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-3uwSMMTY.tmp/crossdomain.xml\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-3uwSMMTY.tmp/robots.txt\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-43W9UbqD.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-76n9bWrV.tmp/modules/emberfire/adapters/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-76n9bWrV.tmp/modules/emberfire/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-76n9bWrV.tmp/modules/emberfire/serializers/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-76n9bWrV.tmp/modules/emberfire/utils/to-promise.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-cMFmC7AN.tmp/EmberFire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-cMFmC7AN.tmp/emberfire/adapters/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-cMFmC7AN.tmp/emberfire/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-cMFmC7AN.tmp/emberfire/serializers/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-cMFmC7AN.tmp/emberfire/utils/to-promise.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-dPL68h7Y.tmp/assets/game-score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-dPL68h7Y.tmp/assets/game-score.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-dPL68h7Y.tmp/assets/vendor.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-dPL68h7Y.tmp/assets/vendor.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/addons.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/addons.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/addons.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/.gitignore\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/component.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/composer.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/ember-template-compiler.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/ember-testing.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/ember.debug.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/ember.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/ember.min.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/ember.prod.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/Makefile\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/package.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/.gitignore\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/component.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/composer.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/ember-data.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/ember-data.js.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/ember-data.min.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/ember-data.prod.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/Makefile\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/package.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-data/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-qunit-notifications/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-qunit-notifications/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-qunit-notifications/CONTRIBUTING.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-qunit-notifications/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/ember-qunit-notifications/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/firebase/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/firebase/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/firebase/firebase-debug.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/firebase/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/firebase/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/firebase/shim.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/qunit/qunit/qunit.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eFdBolJZ.tmp/qunit/qunit/qunit.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-eHU2hUjG.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/router.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/test-helper.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/test-helper.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/helpers/resolver.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/helpers/resolver.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/helpers/start-app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/helpers/start-app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/unit/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/unit/controllers/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/unit/controllers/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/unit/models/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/game-score/tests/unit/models/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/vendor/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/vendor/addons.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/vendor/addons.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HsYBMY0q.tmp/vendor/addons.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-hxJdAqSI.tmp/application.hbs\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-hxJdAqSI.tmp/index.hbs\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-Ij7PGZQ3.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/adapters/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/controllers/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/initializers/app-version.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/initializers/export-application-global.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/models/post.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/models/score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/routes/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-iojP8vz6.tmp/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-LYgBGLSx.tmp/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-LYgBGLSx.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-LYgBGLSx.tmp/test-helper.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-MTLn3bHm.tmp/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-MTLn3bHm.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-MTLn3bHm.tmp/test-helper.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qJV0kU3k.tmp/app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qJV0kU3k.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qJV0kU3k.tmp/router.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-VEd8lTCK.tmp/testem.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-VEd8lTCK.tmp/assets/test-loader.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-VEd8lTCK.tmp/assets/test-support.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-VEd8lTCK.tmp/assets/test-support.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-VEd8lTCK.tmp/assets/test-support.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-yN7BNMsY.tmp/assets/ember-data.js.map\n3 matches across 2 files\n\n\nSearching 26050 files for \"b9c899\"\n\n/Users/alex/Documents/Websites/opening_day/app/styles/_colors.scss:\n    2  $background-color: #2e3038;\n    3  $primary-text-color: #c82c37;\n    4: $secondary-text-color: #b9c899;\n    5  $button-text-color: #eeeeee;\n    6  \n\n/Users/alex/Documents/Websites/opening_day/dist/assets/game-score.css:\n   22  \n   23  h2 {\n   24:   color: #b9c899;\n   25    font-size: 2em; }\n   26  \n   ..\n   30  \n   31  h2 a:hover {\n   32:   color: #b9c899; }\n   33  \n   34  h3 {\n   ..\n   44  \n   45  a {\n   46:   color: #b9c899;\n   47    text-decoration: underline;\n   48    letter-spacing: 2px; }\n   ..\n   65    -o-transition-timing-function: ease-in;\n   66    transition-timing-function: ease-in;\n   67:   background: none repeat scroll 0 0 #b9c899;\n   68    border: medium none;\n   69    color: #eeeeee;\n   ..\n   83  \n   84  ::selection {\n   85:   background: #b9c899; }\n   86  \n   87  input[type=text] {\n\n/Users/alex/Documents/Websites/opening_day/dist/assets/game-score.css.map:\n   11  	\"sourcesContent\": [\n   12  		\"@import 'colors';\\n@import 'base';\\n@import 'classes';\\n@import 'responsive';\\n\",\n   13: 		\"$background-color2: #35373f;\\n$background-color: #2e3038;\\n$primary-text-color: #c82c37;\\n$secondary-text-color: #b9c899;\\n$button-text-color: #eeeeee;\\n\\n\\n\",\n   14  		\"* {\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  background: $background-color;\\n  font-family: 'Open Sans', sans-serif;\\n  font-weight: 300;\\n  color: white;\\n  line-height: 2em;\\n  width: 100%;\\n  max-width: 800px;\\n  margin: 0 auto;\\n  text-align: center;\\n}\\n\\nh1, h2, h3 {\\n  font-weight: 300;\\n  line-height: 1em;\\n  margin-bottom: 1em;\\n}\\n\\nh1 {\\n  font-size: 3em;\\n}\\n\\nh2 {\\n  color: $secondary-text-color;\\n  font-size: 2em;\\n}\\n\\nh2 a {\\n  text-decoration: none;\\n  color: white;\\n}\\n\\nh2 a:hover {\\n  color: $secondary-text-color;\\n}\\n\\nh3 {\\n  color: $primary-text-color;\\n  font-size: 1.1em;\\n  line-height: 2em;\\n}\\n\\np, ul {\\n  margin-bottom: 1em;\\n  letter-spacing: 1px;\\n  padding: 0;\\n  list-style-position: inside;\\n}\\n\\na {\\n  color: $secondary-text-color;\\n  text-decoration: underline;\\n  letter-spacing: 2px;\\n}\\n\\na:hover {\\n  color: white;\\n  text-decoration: none;\\n}\\n\\nbutton {\\n  -webkit-transition-property: background-color;\\n  -moz-transition-property: background-color;\\n  -o-transition-property: background-color;\\n  transition-property: background-color;\\n  -webkit-transition-duration: 0.3s;\\n  -moz-transition-duration: 0.3s;\\n  -o-transition-duration: 0.3s;\\n  transition-duration: 0.3s;\\n  -webkit-transition-timing-function: ease-in;\\n  -moz-transition-timing-function: ease-in;\\n  -o-transition-timing-function: ease-in;\\n  transition-timing-function: ease-in;\\n  background: none repeat scroll 0 0 $secondary-text-color;\\n  border: medium none;\\n  color: $button-text-color;\\n  cursor: pointer;\\n  font-size: 1.2em;\\n  font-weight: bold;\\n  height: 3em;\\n  width: 10em;\\n  text-transform: uppercase;\\n  padding-left: 10px;\\n  padding-right: 10px;\\n  margin-top: 10px;\\n  margin-right: 1em;\\n}\\n\\nbutton:hover {\\n  background-color: white;\\n}\\n\\n::selection {\\n  background: $secondary-text-color;\\n}\\n\\ninput[type=text] {\\n  font-size: 2em;\\n  height: 2em;\\n  width: 100%;\\n  background-color: $background-color;\\n  border: 1px solid $primary-text-color;\\n  color: $primary-text-color;\\n}\\n\\nfieldset {\\n  margin: 0 0 20px 0;\\n  font-size: 14px;\\n  border: none;\\n  padding-left: 0;\\n}\\n\\nfieldset label {\\n  display: block;\\n  margin: 0 0 5px 0;\\n  font-weight: bold;\\n  color: $primary-text-color;\\n  font-size: 2em;\\n}\",\n   15  		\".note {\\n  font-style: italic;\\n  font-size: .9em;\\n  color: $button-text-color;\\n}\\n\\n.left {\\n  width: 50%;\\n  float: left;\\n  padding-left: 2.5em;\\n  text-align: center;\\n}\\n\\n.right {\\n  width: 50%;\\n  float: right;\\n  padding-right: 2.5em;\\n  padding-top: 2em;\\n  text-align: center;\\n}\\n\\n.clickable-area {\\n  text-decoration: none;\\n}\\n\\n.no-space {\\n  margin-bottom: .3em;\\n}\\n\\n.color1 {\\n  background-color: $background-color;\\n}\\n\\n.color2 {\\n  background-color: $background-color2;\\n}\",\n\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/test-helper.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/helpers/resolver.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/helpers/start-app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/unit/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/unit/controllers/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-afJFDBSf.tmp/game-score/tests/unit/models/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/adapters/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/controllers/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/initializers/app-version.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/initializers/export-application-global.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/models/post.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/models/score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/routes/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/babel-tmp_dest_dir-pY7uSEU7.tmp/game-score/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-0ZTYTEsJ.tmp/assets/test-support.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-0ZTYTEsJ.tmp/assets/test-support.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-AclkOkzp.tmp/assets/vendor.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-AclkOkzp.tmp/assets/vendor.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-aJUjmWJJ.tmp/addons.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-b4sePZwB.tmp/assets/game-score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-b4sePZwB.tmp/assets/game-score.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-Lc6awQF1.tmp/assets/test-support.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-Lc6awQF1.tmp/assets/test-support.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-SUpCMN6w.tmp/assets/test-support.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-xFEEGq5O.tmp/addons.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-xFEEGq5O.tmp/addons.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/class-tmp_cache_dir-zpunpe7O.tmp/assets/vendor.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-htSOtHpv.tmp/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-qruhyoqa.tmp/app-boot.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-qruhyoqa.tmp/app-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-qruhyoqa.tmp/app-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-qruhyoqa.tmp/test-support-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-qruhyoqa.tmp/test-support-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-qruhyoqa.tmp/vendor-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-qruhyoqa.tmp/vendor-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_replace-tmp_dest_dir-whrkkYon.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-5mK6DKYV.tmp/assets/test-loader.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-7rxSlIYx.tmp/vendor/ember-cli/app-boot.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-7rxSlIYx.tmp/vendor/ember-cli/app-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-7rxSlIYx.tmp/vendor/ember-cli/app-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-7rxSlIYx.tmp/vendor/ember-cli/test-support-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-7rxSlIYx.tmp/vendor/ember-cli/test-support-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-7rxSlIYx.tmp/vendor/ember-cli/vendor-prefix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-7rxSlIYx.tmp/vendor/ember-cli/vendor-suffix.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-JwbNPrIW.tmp/testem.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-MHnMNaR3.tmp/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/custom_static_compiler-tmp_dest_dir-uZ9JkpKz.tmp/assets/ember-data.js.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/adapters/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/controllers/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/initializers/app-version.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/initializers/export-application-global.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/models/post.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/models/score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/routes/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/es_safe_filter-tmp_dest_dir-75e4aVdT.tmp/game-score/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/test-helper.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/helpers/resolver.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/helpers/start-app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/unit/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/unit/controllers/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-fkXw1fCN.tmp/unit/models/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/router.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/adapters/application.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/controllers/index.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/models/post.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/models/score.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/routes/index.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/jshinter-tmp_dest_dir-lf150CUK.tmp/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/sass_compiler-tmp_cache_dir-txxn30Hd.tmp/assets/game-score.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/sass_compiler-tmp_cache_dir-txxn30Hd.tmp/assets/game-score.css.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/template_compiler-tmp_dest_dir-ncQbmiYC.tmp/game-score/templates/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/template_compiler-tmp_dest_dir-ncQbmiYC.tmp/game-score/templates/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/template_compiler-tmp_dest_dir-ncQbmiYC.tmp/game-score/templates/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-0GasWyyB.tmp/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-0GasWyyB.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-0GasWyyB.tmp/test-helper.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-4qSb8gEZ.tmp/crossdomain.xml\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-4qSb8gEZ.tmp/robots.txt\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-7aLVB3hI.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/router.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/test-helper.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/test-helper.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/helpers/resolver.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/helpers/resolver.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/helpers/start-app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/helpers/start-app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/unit/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/unit/controllers/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/unit/controllers/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/unit/models/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/game-score/tests/unit/models/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/vendor/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/vendor/addons.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/vendor/addons.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-azMZ6Jyh.tmp/vendor/addons.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-C0HpiVxs.tmp/modules/emberfire/adapters/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-C0HpiVxs.tmp/modules/emberfire/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-C0HpiVxs.tmp/modules/emberfire/serializers/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-C0HpiVxs.tmp/modules/emberfire/utils/to-promise.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-CVNwQUJ7.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/adapters/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/components/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/controllers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/controllers/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/helpers/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/initializers/app-version.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/initializers/export-application-global.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/models/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/models/post.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/models/score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/routes/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/routes/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-DBOF3WOc.tmp/views/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-gS76oSWC.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HF3hc9o4.tmp/EmberFire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HF3hc9o4.tmp/emberfire/adapters/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HF3hc9o4.tmp/emberfire/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HF3hc9o4.tmp/emberfire/serializers/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-HF3hc9o4.tmp/emberfire/utils/to-promise.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-KdXlLmRL.tmp/assets/game-score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-KdXlLmRL.tmp/assets/game-score.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-KdXlLmRL.tmp/assets/vendor.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-KdXlLmRL.tmp/assets/vendor.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-KJeQoYr2.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-kNbFbA5b.tmp/assets/ember-data.js.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/.gitkeep\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/addons.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/addons.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/addons.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/.gitignore\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/component.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/composer.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/ember-template-compiler.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/ember-testing.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/ember.debug.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/ember.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/ember.min.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/ember.prod.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/Makefile\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/package.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/.gitignore\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/component.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/composer.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/ember-data.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/ember-data.js.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/ember-data.min.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/ember-data.prod.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/Makefile\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/package.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-data/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-qunit-notifications/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-qunit-notifications/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-qunit-notifications/CONTRIBUTING.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-qunit-notifications/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/ember-qunit-notifications/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/firebase/.bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/firebase/bower.json\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/firebase/firebase-debug.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/firebase/firebase.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/firebase/README.md\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/firebase/shim.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/qunit/qunit/qunit.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-PDyjQ77S.tmp/qunit/qunit/qunit.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-ph9zRw9j.tmp/app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-ph9zRw9j.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-ph9zRw9j.tmp/router.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qkIzIeGm.tmp/.jshintrc\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qkIzIeGm.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qkIzIeGm.tmp/test-helper.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/crossdomain.xml\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/index.html\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/robots.txt\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/testem.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/ember-data.js.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/game-score.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/game-score.css.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/game-score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/game-score.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/test-loader.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/test-support.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/test-support.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/test-support.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/vendor.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/vendor.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-qOujAiYC.tmp/assets/vendor.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-SgZKx63E.tmp/application.hbs\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-SgZKx63E.tmp/index.hbs\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/router.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/adapters/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/controllers/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/initializers/app-version.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/initializers/emberfire.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/initializers/export-application-global.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/models/post.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/models/score.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/routes/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/templates/application.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/templates/index.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/router.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/test-helper.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/test-helper.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/adapters/application.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/controllers/index.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/helpers/resolver.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/helpers/resolver.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/helpers/start-app.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/helpers/start-app.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/models/post.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/models/score.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/routes/index.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/unit/controllers/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/unit/controllers/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/unit/models/post-test.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-UZ2Omv7D.tmp/game-score/tests/unit/models/post-test.jshint.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-vZ1bnXrI.tmp/testem.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-vZ1bnXrI.tmp/assets/test-loader.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-vZ1bnXrI.tmp/assets/test-support.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-vZ1bnXrI.tmp/assets/test-support.js\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-vZ1bnXrI.tmp/assets/test-support.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-W1W1qQzc.tmp/assets/game-score.css\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-W1W1qQzc.tmp/assets/game-score.css.map\nUnable to open /Users/alex/Documents/Websites/opening_day/tmp/tree_merger-tmp_dest_dir-W1W1qQzc.tmp/assets/vendor.css\n7 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 69693,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/styles/_classes.scss",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_responsive.scss",
+			"settings":
+			{
+				"buffer_size": 367,
 				"line_ending": "Unix"
 			}
 		}
@@ -648,6 +658,15 @@
 	},
 	"file_history":
 	[
+		"/Users/alex/Documents/Websites/opening_day/app/router.js",
+		"/Users/alex/Documents/Websites/opening_day/config/environment.js",
+		"/Users/alex/Documents/Websites/opening_day/app/styles/app.scss",
+		"/Users/alex/Documents/Websites/opening_day/README.md",
+		"/Users/alex/Documents/Websites/opening_day/app/styles/_classes.scss",
+		"/Users/alex/Documents/Websites/opening_day/app/styles/app.css",
+		"/Users/alex/Documents/Websites/opening_day/app/controllers/score.js",
+		"/Users/alex/Documents/Websites/opening_day/app/templates/score.hbs",
+		"/Users/alex/Documents/Websites/opening_day/app/routes/score.js",
 		"/Users/alex/Documents/Websites/game_score/app/routes/posts/index.js",
 		"/Users/alex/Documents/Websites/game_score/tests/unit/models/post-test.js",
 		"/Users/alex/Documents/Websites/slovnik/app/templates/lists/index.hbs",
@@ -766,16 +785,7 @@
 		"/Users/alex/Documents/Websites/mytennisstats/Gemfile",
 		"/Users/alex/Documents/Websites/mytennisstats/app/views/home/index.html.erb",
 		"/Users/alex/Documents/Websites/mytennisstats/config/routes.rb",
-		"/Users/alex/Documents/Websites/mytennisstats/app/views/devise/registrations/edit.html.erb",
-		"/Users/alex/Documents/Websites/mytennisstats/app/views/charts/_form.html.erb",
-		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/partials/_tables.scss",
-		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/site.css.scss",
-		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/partials/_icon_fonts.css.erb",
-		"/Users/alex/Documents/Websites/mytennisstats/app/assets/stylesheets/partials/_forms.scss",
-		"/Users/alex/Documents/Websites/mytennisstats/app/views/settings/index.html.erb",
-		"/Users/alex/Documents/Websites/mytennisstats/app/views/matches/index.html.erb",
-		"/Users/alex/Documents/Websites/mytennisstats/app/controllers/matches_controller.rb",
-		"/Users/alex/Documents/Websites/mytennisstats/app/views/layouts/application.html.erb"
+		"/Users/alex/Documents/Websites/mytennisstats/app/views/devise/registrations/edit.html.erb"
 	],
 	"find":
 	{
@@ -786,6 +796,7 @@
 		"height": 106.0,
 		"where_history":
 		[
+			"",
 			"/Users/alex/Documents/Websites/slovnik/app",
 			"<open folders>",
 			"/Users/alex/Documents/Projects/slovnik/css,<open folders>",
@@ -806,6 +817,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"",
+			"team1",
+			"b9c899",
+			"hover-color",
+			"debugger",
 			"{{",
 			": DS.attr('number'),",
 			": DS.attr('string'),",
@@ -928,12 +944,7 @@
 			"total_points",
 			"debugger",
 			"generateServesView",
-			"'",
-			"dashboard",
-			"includeServe",
-			"serves",
-			"generateServesView",
-			"var"
+			"'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -953,23 +964,23 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/environment.js",
+					"file": "app/models/score.js",
 					"settings":
 					{
-						"buffer_size": 1216,
+						"buffer_size": 446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								263,
-								263
+								351,
+								351
 							]
 						],
 						"settings":
@@ -986,137 +997,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/routes/score.js",
-					"settings":
-					{
-						"buffer_size": 102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/templates/score.hbs",
-					"settings":
-					{
-						"buffer_size": 415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<!-- app/templates/posts.hbs -->",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/router.js",
-					"settings":
-					{
-						"buffer_size": 218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								186,
-								186
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/controllers/score.js",
-					"settings":
-					{
-						"buffer_size": 462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								110,
-								110
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/models/score.js",
-					"settings":
-					{
-						"buffer_size": 385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								385,
-								385
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "app/templates/application.hbs",
 					"settings":
 					{
@@ -1142,27 +1022,243 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "README.md",
+					"buffer": 2,
+					"file": "app/routes/index.js",
 					"settings":
 					{
-						"buffer_size": 1310,
+						"buffer_size": 102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								940,
-								940
+								58,
+								58
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 258.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/styles/_base.scss",
+					"settings":
+					{
+						"buffer_size": 2141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1925,
+								2141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/templates/index.hbs",
+					"settings":
+					{
+						"buffer_size": 613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								447
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/styles/_colors.scss",
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 69693,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										165,
+										176
+									],
+									[
+										461,
+										472
+									],
+									[
+										2370,
+										2381
+									],
+									[
+										31665,
+										31671
+									],
+									[
+										31826,
+										31832
+									],
+									[
+										31920,
+										31926
+									],
+									[
+										31992,
+										31998
+									],
+									[
+										32215,
+										32221
+									],
+									[
+										32335,
+										32341
+									],
+									[
+										32699,
+										32705
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								31669,
+								31669
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9036.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/styles/_classes.scss",
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/styles/_responsive.scss",
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

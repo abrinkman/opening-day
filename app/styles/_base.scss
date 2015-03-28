@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $background-color2;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2 {
+  font-size: 2em;
+}
+
+.teams {
+  background-color: $background-color1;
+  padding: 2em 0;
+}
+
+.score {
+  background-color: $background-color2;
+  font-size: 2em;
+}
+
+.box-score {
+  background-color: $background-color1;
+  padding: 1em 0;
+
+  div {
+    margin: 1em 0;
+  }
+}
+
+.box-score-value {
+  display: inline-block;
+  margin: 0 1.5em;
+}
+
+.info {
+  background-color: $background-color2;
+  margin: 2em 0;
+}
+
+.info-left {
+  display: inline-block;
+  width: 40%;
+}
+
+.info-right {
+  display: inline-block;
+  width: 40%;
+}

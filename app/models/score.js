@@ -9,6 +9,8 @@ export default DS.Model.extend({
   team2Hits: DS.attr('number'),
   team1Errors: DS.attr('number'),
   team2Errors: DS.attr('number'),
+  topBottom: DS.attr('string'),
+  inning: DS.attr('number'),
   atBat: DS.attr('string'),
   pitching: DS.attr('string')
 });
