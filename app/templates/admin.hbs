@@ -12,7 +12,7 @@
 
 <fieldset>
   <label>{{model.topBottom}}<button {{action 'toggle' 'topBottom'}}>+</button>
-    of the {{model.inning}}
+    of the {{model.inning}}{{inningSuffix}}
     <button {{action 'valueUp' 'inning'}}>+</button>
   <button {{action 'valueDown' 'inning'}}>-</button>
   </label>
