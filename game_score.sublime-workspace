@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"su",
+				"inningSuffixChars"
+			],
+			[
+				"innin",
+				"inningSuffixObserver"
+			],
+			[
+				"team",
+				"team1Runs"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -154,10 +166,6 @@
 			[
 				"te",
 				"team_2_set_score"
-			],
-			[
-				"team",
-				"team_1_set_score"
 			],
 			[
 				"op",
@@ -515,47 +523,7 @@
 			"file": "app/models/score.js",
 			"settings":
 			{
-				"buffer_size": 446,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes/index.js",
-			"settings":
-			{
-				"buffer_size": 154,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes/admin.js",
-			"settings":
-			{
-				"buffer_size": 154,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/index.hbs",
-			"settings":
-			{
-				"buffer_size": 996,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/admin.hbs",
-			"settings":
-			{
-				"buffer_size": 251,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/index.js",
-			"settings":
-			{
-				"buffer_size": 74,
+				"buffer_size": 531,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,23 +531,47 @@
 			"file": "app/controllers/admin.js",
 			"settings":
 			{
-				"buffer_size": 337,
+				"buffer_size": 1498,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/styles/_forms.scss",
+			"file": "app/templates/index.hbs",
 			"settings":
 			{
-				"buffer_size": 397,
+				"buffer_size": 1313,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "app/styles/_base.scss",
 			"settings":
 			{
-				"buffer_size": 1439,
+				"buffer_size": 1162,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/index.js",
+			"settings":
+			{
+				"buffer_size": 455,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/admin.hbs",
+			"settings":
+			{
+				"buffer_size": 2838,
 				"line_ending": "Unix"
 			}
 		}
@@ -660,16 +652,26 @@
 	},
 	"file_history":
 	[
+		"/Users/alex/Documents/Websites/opening_day/tests/unit/controllers/index-test.js",
+		"/Users/alex/Documents/Websites/opening_day/README.md",
+		"/Users/alex/Documents/Websites/opening_day/tests/unit/controllers/admin-test.js",
+		"/Users/alex/Documents/Websites/opening_day/app/templates/admin.hbs",
+		"/Users/alex/Documents/Websites/opening_day/tests/unit/models/score-test.js",
+		"/Users/alex/Documents/Websites/opening_day/tests/unit/controllers/score-test.js",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_base.scss",
+		"/Users/alex/Documents/Websites/opening_day/app/controllers/index.js",
+		"/Users/alex/Documents/Websites/opening_day/app/templates/index.hbs",
+		"/Users/alex/Documents/Websites/opening_day/app/routes/admin.js",
+		"/Users/alex/Documents/Websites/opening_day/app/routes/index.js",
+		"/Users/alex/Documents/Websites/opening_day/app/styles/_forms.scss",
+		"/Users/alex/Documents/Websites/opening_day/app/router.js",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_colors.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/app.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/templates/application.hbs",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_responsive.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_classes.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/index.html",
-		"/Users/alex/Documents/Websites/opening_day/app/router.js",
 		"/Users/alex/Documents/Websites/opening_day/config/environment.js",
-		"/Users/alex/Documents/Websites/opening_day/README.md",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/app.css",
 		"/Users/alex/Documents/Websites/opening_day/app/controllers/score.js",
 		"/Users/alex/Documents/Websites/opening_day/app/templates/score.hbs",
@@ -777,17 +779,7 @@
 		"/Users/alex/Documents/Projects/slovnik/.gitignore",
 		"/Users/alex/Documents/Projects/slovnik/sass/partials/_handheld.scss",
 		"/Users/alex/Documents/Projects/slovnik/js/controllers/application_controller.js",
-		"/Users/alex/Documents/Projects/slovnik/package.json",
-		"/Users/alex/Documents/Projects/slovnik/css/partials/_button.scss",
-		"/Users/alex/Documents/Projects/slovnik/css/style.scss",
-		"/Users/alex/Documents/Projects/slovnik/css/partials/_base.scss",
-		"/Users/alex/Documents/Projects/slovnik/js/controllers/word_controller.js",
-		"/Users/alex/Documents/Projects/slovnik/js/controllers/quiz_controller.js",
-		"/Users/alex/Documents/Projects/slovnik/js/libs/localstorage_adapter.js",
-		"/Users/alex/Documents/Projects/slovnik/about.html",
-		"/Users/alex/Documents/Projects/slovnik/images/logo.png",
-		"/Users/alex/Documents/Projects/slovnik/js/libs/ember-data.js",
-		"/Users/alex/Documents/Websites/mytennisstats/app/controllers/application_controller.rb"
+		"/Users/alex/Documents/Projects/slovnik/package.json"
 	],
 	"find":
 	{
@@ -795,7 +787,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 106.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -819,6 +811,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"team2",
+			"value",
+			"</span>",
+			"assert",
+			"3",
+			"\n",
+			"strikes",
+			"balls",
+			"valueUp",
+			"string",
+			"\"",
+			"return",
+			"key-press",
+			"m1",
+			"action",
+			"token",
+			"team1",
+			"Score",
+			"team1",
+			"team1Score",
 			"value=",
 			"list",
 			"score.",
@@ -926,27 +938,7 @@
 			"button",
 			"threecol last",
 			"fourcol",
-			"numberOfSets",
-			"two-wide",
-			"momentum",
-			"generate",
-			"),\n",
-			"calculateFirstServePointsWon",
-			"generateMatchByMatchView",
-			"calculateSecondServePointsWon",
-			"momentum-view",
-			"momentum-chart",
-			"generateMomentumView",
-			"Wins",
-			"wins/losses",
-			"pointsFromTieBreak",
-			"pointsFromSet",
-			"opponentGameScore",
-			"playerGameScore",
-			"generateServesView",
-			"serve",
-			"points",
-			"generateServesView"
+			"numberOfSets"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -966,7 +958,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -974,15 +966,15 @@
 					"file": "app/models/score.js",
 					"settings":
 					{
-						"buffer_size": 446,
+						"buffer_size": 531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								526,
+								526
 							]
 						],
 						"settings":
@@ -999,70 +991,46 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/routes/index.js",
+					"file": "app/controllers/admin.js",
 					"settings":
 					{
-						"buffer_size": 154,
+						"buffer_size": 1498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								66,
-								66
+								1055,
+								1055
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 246.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/routes/admin.js",
-					"settings":
-					{
-						"buffer_size": 154,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "app/templates/index.hbs",
 					"settings":
 					{
-						"buffer_size": 996,
+						"buffer_size": 1313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
+								592,
+								592
 							]
 						],
 						"settings":
@@ -1078,24 +1046,52 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/templates/admin.hbs",
+					"buffer": 3,
+					"file": "app/styles/_base.scss",
 					"settings":
 					{
-						"buffer_size": 251,
+						"buffer_size": 1162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								194,
-								194
+								1159,
+								1159
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/index.js",
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1107,25 +1103,23 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/controllers/index.js",
+					"file": "app/styles/_colors.scss",
 					"settings":
 					{
-						"buffer_size": 74,
+						"buffer_size": 149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								74,
-								74
+								118,
+								118
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1135,82 +1129,28 @@
 				},
 				{
 					"buffer": 6,
-					"file": "app/controllers/admin.js",
+					"file": "app/templates/admin.hbs",
 					"settings":
 					{
-						"buffer_size": 337,
+						"buffer_size": 2838,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								322,
-								322
+								2567,
+								2819
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/styles/_forms.scss",
-					"settings":
-					{
-						"buffer_size": 397,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								105,
-								105
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 1439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1014,
-								1069
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 122.0,
+						"translation.y": 1050.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1264,8 +1204,24 @@
 		"selected_items":
 		[
 			[
+				"admin",
+				"app/templates/admin.hbs"
+			],
+			[
+				"colors",
+				"app/styles/_colors.scss"
+			],
+			[
 				"read",
 				"README.md"
+			],
+			[
+				"base",
+				"app/styles/_base.scss"
+			],
+			[
+				"router",
+				"app/router.js"
 			],
 			[
 				"color",
@@ -1306,10 +1262,6 @@
 			[
 				"about",
 				"app/templates/about.hbs"
-			],
-			[
-				"router",
-				"app/router.js"
 			],
 			[
 				"route",
