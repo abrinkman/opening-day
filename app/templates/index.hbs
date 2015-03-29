@@ -6,9 +6,12 @@
 
   <div class="score">
     <h2>
-      {{model.team1Runs}} - {{model.team2Runs}}<br />
-      <small>{{model.topBottom}} of the {{model.inning}}{{inningSuffix}}</small>
+      {{model.team1Runs}} - {{model.team2Runs}}
     </h2>
+  </div>
+
+  <div class="inning">
+    {{model.topBottom}} of the {{model.inning}}{{inningSuffix}}
   </div>
 
   <div class="count">
@@ -16,6 +19,11 @@
   </div>
 
   <div class="box-score">
+    <div>
+      <span class="box-score-title">Runs</span>
+      <span class="box-score-title">Hits</span>
+      <span class="box-score-title">Errors</span>
+    </div>
     <div>
       <span class="box-score-value">{{model.team1Runs}}</span>
       <span class="box-score-value">{{model.team1Hits}}</span>

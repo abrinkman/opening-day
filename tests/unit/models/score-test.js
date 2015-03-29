@@ -3,7 +3,7 @@ import {
   test
 } from 'ember-qunit';
 
-moduleForModel('post', {
+moduleForModel('score', {
   // Specify the other units that are required for this test.
   needs: []
 });

@@ -14,6 +14,7 @@ body {
 
 h1, h2 {
   font-size: 2em;
+  margin: .5em 0;
 }
 
 small {
@@ -30,18 +31,30 @@ small {
   font-size: 2em;
 }
 
-.count {
+.inning {
   background-color: $background-color1;
   padding: 1em 0;
 }
 
-.box-score {
+.count {
   background-color: $background-color2;
+  padding: 1em 0;
+}
+
+.box-score {
+  background-color: $background-color1;
   padding: 1em 0;
 
   div {
     margin: 1em 0;
   }
+}
+
+.box-score-title {
+  display: inline-block;
+  margin: 0 1.5em;
+  color: $secondary-text-color;
+  font-size: .75em;
 }
 
 .box-score-value {
@@ -50,7 +63,7 @@ small {
 }
 
 .info {
-  background-color: $background-color1;
+  background-color: $background-color2;
   padding: 2em 0;
 }
 

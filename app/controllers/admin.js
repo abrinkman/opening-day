@@ -8,20 +8,8 @@ export default Ember.Controller.extend({
 
   inningSuffixObserver : function(){
     var inning = this.get('model').get('inning');
-
-    var val = 'th';
-    if (inning === 1) {
-      val = 'st';
-    }
-    else if (inning === 2) {
-      val = 'nd';
-    }
-    else if (inning === 3) {
-      val = 'rd';
-    }
-
+    var val = this.inningSuffixChars(inning);
     this.set('inningSuffix', val);
-
   }.observes('content.inning'),
 
   actions : {
@@ -56,7 +44,7 @@ export default Ember.Controller.extend({
     toggle : function (field) {
       var model = this.get('content');
       var value = model.get('topBottom');
-      value = value === 'top' ? 'bottom' : 'top';
+      value = value === 'Top' ? 'Bottom' : 'Top';
       model.set(field, value);
       model.save();
     },
@@ -67,6 +55,20 @@ export default Ember.Controller.extend({
       model.save();
     }
 
+  },
+
+  inningSuffixChars : function(inning) {
+    var val = 'th';
+    if (inning === 1) {
+      val = 'st';
+    }
+    else if (inning === 2) {
+      val = 'nd';
+    }
+    else if (inning === 3) {
+      val = 'rd';
+    }
+    return val;
   }
 
 });
