@@ -12,5 +12,8 @@ export default DS.Model.extend({
   topBottom: DS.attr('string'),
   inning: DS.attr('number'),
   atBat: DS.attr('string'),
-  pitching: DS.attr('string')
+  pitching: DS.attr('string'),
+  balls: DS.attr('number'),
+  strikes: DS.attr('number'),
+  outs: DS.attr('number')
 });

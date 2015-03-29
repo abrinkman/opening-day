@@ -56,4 +56,26 @@
   {{input type="text" value=model.atBat action="update" on="enter"}}
 </fieldset>
 
+<fieldset>
+  <label>Balls</label>
+  <button {{action 'set' 'balls' '0'}}>clear</button>
+  <button {{action 'set' 'balls' '1'}}>0</button>
+  <button {{action 'set' 'balls' '2'}}>0</button>
+  <button {{action 'set' 'balls' '3'}}>0</button>
+</fieldset>
+
+<fieldset>
+  <label>Strikes</label>
+  <button {{action 'set' 'strikes' '0'}}>clear</button>
+  <button {{action 'set' 'strikes' '1'}}>0</button>
+  <button {{action 'set' 'strikes' '2'}}>0</button>
+</fieldset>
+
+<fieldset>
+  <label>Outs</label>
+  <button {{action 'set' 'outs' '0'}}>clear</button>
+  <button {{action 'set' 'outs' '1'}}>0</button>
+  <button {{action 'set' 'outs' '2'}}>0</button>
+</fieldset>
+
 </section>

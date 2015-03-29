@@ -5,8 +5,14 @@
   </div>
 
   <div class="score">
-    <h2>{{model.team1Runs}} - {{model.team2Runs}}</h2>
-    <small>{{model.topBottom}} of the {{model.inning}}</small>
+    <h2>
+      {{model.team1Runs}} - {{model.team2Runs}}<br />
+      <small>{{model.topBottom}} of the {{model.inning}}</small>
+    </h2>
+  </div>
+
+  <div class="count">
+    {{model.balls}} Balls {{model.strikes}} Strikes {{model.outs}} Outs
   </div>
 
   <div class="box-score">

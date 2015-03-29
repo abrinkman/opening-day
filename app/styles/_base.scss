@@ -16,6 +16,10 @@ h1, h2 {
   font-size: 2em;
 }
 
+small {
+  font-size: .25em;
+}
+
 .teams {
   background-color: $background-color1;
   padding: 2em 0;
@@ -26,8 +30,13 @@ h1, h2 {
   font-size: 2em;
 }
 
-.box-score {
+.count {
   background-color: $background-color1;
+  padding: 1em 0;
+}
+
+.box-score {
+  background-color: $background-color2;
   padding: 1em 0;
 
   div {
@@ -41,8 +50,8 @@ h1, h2 {
 }
 
 .info {
-  background-color: $background-color2;
-  margin: 2em 0;
+  background-color: $background-color1;
+  padding: 2em 0;
 }
 
 .info-left {
