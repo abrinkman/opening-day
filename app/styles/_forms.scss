@@ -24,18 +24,6 @@ fieldset label {
 }
 
 button {
-  -webkit-transition-property: background-color;
-  -moz-transition-property: background-color;
-  -o-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-in;
-  -moz-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
   background: none repeat scroll 0 0;
   border: 1px solid $secondary-text-color;
   color: $secondary-text-color;
@@ -45,4 +33,9 @@ button {
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.ball1, .ball2, .ball3, .strike1, .strike2, .out1, .out2 {
+  border: 1px solid $tertiary-text-color;
+  color: $tertiary-text-color;
 }
