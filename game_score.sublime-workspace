@@ -531,39 +531,7 @@
 			"file": "app/controllers/admin.js",
 			"settings":
 			{
-				"buffer_size": 1498,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/index.hbs",
-			"settings":
-			{
-				"buffer_size": 1313,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/_base.scss",
-			"settings":
-			{
-				"buffer_size": 1162,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/index.js",
-			"settings":
-			{
-				"buffer_size": 455,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/_colors.scss",
-			"settings":
-			{
-				"buffer_size": 149,
+				"buffer_size": 2763,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,7 +539,31 @@
 			"file": "app/templates/admin.hbs",
 			"settings":
 			{
-				"buffer_size": 2838,
+				"buffer_size": 2993,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 811,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1439,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 180,
 				"line_ending": "Unix"
 			}
 		}
@@ -652,20 +644,21 @@
 	},
 	"file_history":
 	[
+		"/Users/alex/Documents/Websites/opening_day/app/controllers/index.js",
+		"/Users/alex/Documents/Websites/opening_day/app/styles/_base.scss",
+		"/Users/alex/Documents/Websites/opening_day/app/templates/index.hbs",
+		"/Users/alex/Documents/Websites/opening_day/app/styles/_colors.scss",
+		"/Users/alex/Documents/Websites/opening_day/node_modules/ember-cli/node_modules/findup/node_modules/colors/ReadMe.md",
 		"/Users/alex/Documents/Websites/opening_day/tests/unit/controllers/index-test.js",
 		"/Users/alex/Documents/Websites/opening_day/README.md",
 		"/Users/alex/Documents/Websites/opening_day/tests/unit/controllers/admin-test.js",
 		"/Users/alex/Documents/Websites/opening_day/app/templates/admin.hbs",
 		"/Users/alex/Documents/Websites/opening_day/tests/unit/models/score-test.js",
 		"/Users/alex/Documents/Websites/opening_day/tests/unit/controllers/score-test.js",
-		"/Users/alex/Documents/Websites/opening_day/app/styles/_base.scss",
-		"/Users/alex/Documents/Websites/opening_day/app/controllers/index.js",
-		"/Users/alex/Documents/Websites/opening_day/app/templates/index.hbs",
 		"/Users/alex/Documents/Websites/opening_day/app/routes/admin.js",
 		"/Users/alex/Documents/Websites/opening_day/app/routes/index.js",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_forms.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/router.js",
-		"/Users/alex/Documents/Websites/opening_day/app/styles/_colors.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/app.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/templates/application.hbs",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_responsive.scss",
@@ -778,8 +771,7 @@
 		"/Users/alex/Documents/Projects/slovnik/css/sass/partials/_base.scss",
 		"/Users/alex/Documents/Projects/slovnik/.gitignore",
 		"/Users/alex/Documents/Projects/slovnik/sass/partials/_handheld.scss",
-		"/Users/alex/Documents/Projects/slovnik/js/controllers/application_controller.js",
-		"/Users/alex/Documents/Projects/slovnik/package.json"
+		"/Users/alex/Documents/Projects/slovnik/js/controllers/application_controller.js"
 	],
 	"find":
 	{
@@ -811,6 +803,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ball3",
+			"strike",
+			"strike1",
+			"ball",
+			"}}",
+			"true",
+			"-",
+			"inning",
+			"secondary",
+			" action=\"update\" on=\"key-press\"",
+			"onEvent=\"keyPress\"",
+			"onEvent",
+			"on",
+			"enter",
+			"h2",
 			"team2",
 			"value",
 			"</span>",
@@ -923,22 +930,7 @@
 			"title",
 			"current_score",
 			"threeSetWithTieBreak",
-			"reset_password_instructions",
-			"mandril",
-			"1em",
-			"assets",
-			"fourcol",
-			"}",
-			"radio",
-			"f.label",
-			"<br />",
-			"</div>",
-			"<div>",
-			"Cancel my account",
-			"button",
-			"threecol last",
-			"fourcol",
-			"numberOfSets"
+			"reset_password_instructions"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -958,7 +950,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -994,15 +986,15 @@
 					"file": "app/controllers/admin.js",
 					"settings":
 					{
-						"buffer_size": 1498,
+						"buffer_size": 2763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1055,
-								1055
+								2166,
+								2166
 							]
 						],
 						"settings":
@@ -1012,30 +1004,58 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 246.0,
+						"translation.y": 1740.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/templates/index.hbs",
+					"file": "app/templates/admin.hbs",
 					"settings":
 					{
-						"buffer_size": 1313,
+						"buffer_size": 2993,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								592,
-								592
+								1125,
+								1125
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/styles/_forms.scss",
+					"settings":
+					{
+						"buffer_size": 811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1046,54 +1066,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/styles/_base.scss",
-					"settings":
-					{
-						"buffer_size": 1162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1159,
-								1159
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 798.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "app/controllers/index.js",
+					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 455,
+						"buffer_size": 1439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								449,
-								449
+								939,
+								939
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1106,15 +1096,15 @@
 					"file": "app/styles/_colors.scss",
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								129,
+								129
 							]
 						],
 						"settings":
@@ -1123,34 +1113,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/templates/admin.hbs",
-					"settings":
-					{
-						"buffer_size": 2838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2567,
-								2819
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1050.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1204,6 +1166,18 @@
 		"selected_items":
 		[
 			[
+				"color",
+				"app/styles/_colors.scss"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"readme",
+				"node_modules/ember-cli/node_modules/findup/node_modules/colors/ReadMe.md"
+			],
+			[
 				"admin",
 				"app/templates/admin.hbs"
 			],
@@ -1212,20 +1186,12 @@
 				"app/styles/_colors.scss"
 			],
 			[
-				"read",
-				"README.md"
-			],
-			[
 				"base",
 				"app/styles/_base.scss"
 			],
 			[
 				"router",
 				"app/router.js"
-			],
-			[
-				"color",
-				"app/styles/_colors.scss"
 			],
 			[
 				"post",
@@ -1665,7 +1631,7 @@
 		[
 			[
 				"",
-				"/Users/alex/Documents/Websites/slovnik/slovnik.sublime-project"
+				"/Users/alex/Documents/Websites/bookstome/bookstome.sublime-project"
 			]
 		],
 		"width": 380.0

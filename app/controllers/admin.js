@@ -3,9 +3,10 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
 
   actions : {
+
     update : function () {
-      var score = this.get('content');
-      score.save();
+      var model = this.get('content');
+      model.save();
     },
 
     valueUp : function (field) {
@@ -46,16 +47,6 @@ export default Ember.Controller.extend({
     }
 
   },
-
-  inningSuffix : function () {
-
-  }.property(),
-
-  inningSuffixObserver : function(){
-    var inning = this.get('model').get('inning');
-    var val = this.inningSuffixChars(inning);
-    this.set('inningSuffix', val);
-  }.observes('content.inning'),
 
   ball1 : function() {
 
@@ -126,20 +117,6 @@ export default Ember.Controller.extend({
     if (outs === 2) {
       this.set('out2', true);
     }
-  }.observes('content.outs'),
-
-  inningSuffixChars : function(inning) {
-    var val = 'th';
-    if (inning === 1) {
-      val = 'st';
-    }
-    else if (inning === 2) {
-      val = 'nd';
-    }
-    else if (inning === 3) {
-      val = 'rd';
-    }
-    return val;
-  }
+  }.observes('content.outs')
 
 });
