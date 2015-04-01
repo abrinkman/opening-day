@@ -1,0 +1,15 @@
+<section>
+
+  {{#each message in model}}
+    <div>{{message.message}}</div>
+  {{/each}}
+
+</section>
+
+<section>
+  <fieldset>
+    <label>Message</label>
+    {{input type="text" value=model.message}}
+    <button {{action 'post'}}>Post</button>
+  </fieldset>
+</section>
