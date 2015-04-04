@@ -15,12 +15,14 @@
 
 ## Walkthrough of the app
   * adapters/application.js
+    * http://emberjs.com/api/data/classes/DS.Adapter.html
   * model
+  * Show offline support
 
 
 ## Take a look at the firebase serializer and adapter
 * node_modules/emberfire/addon/adapters
 * basic flow of data in serializers and adapters
-
-* Upgraded http connection
+  * http://emberjs.com/api/data/classes/DS.Adapter.html
+* Upgraded http connection (on web socket connection)
 * Making a change, rebuilding, publishing.

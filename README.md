@@ -20,6 +20,8 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
+* ember install:addon emberfire
+
 ## Running / Development
 
 * `ember server`

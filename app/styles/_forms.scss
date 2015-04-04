@@ -7,6 +7,10 @@ input[type=text] {
   color: $primary-text-color;
 }
 
+input[type=text].narrow {
+  width: 89%;
+}
+
 fieldset {
   margin: 0 0 20px 0;
   font-size: 14px;
@@ -33,6 +37,14 @@ button {
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+button.large {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 1.5em;
+  height: 4em;
+  vertical-align: bottom;
 }
 
 .ball1, .ball2, .ball3, .strike1, .strike2, .out1, .out2 {

@@ -1,15 +1,10 @@
-<section>
+<fieldset>
+  {{input type="text" action='post' value=model.message class="narrow"}}
+  <button {{action 'post'}} class="large">Post</button>
+</fieldset>
 
+<div class="messages">
   {{#each message in model}}
-    <div>{{message.message}}</div>
+    <p><strong>{{message.timestamp}}</strong>{{message.message}}</p>
   {{/each}}
-
-</section>
-
-<section>
-  <fieldset>
-    <label>Message</label>
-    {{input type="text" value=model.message}}
-    <button {{action 'post'}}>Post</button>
-  </fieldset>
-</section>
+</div>

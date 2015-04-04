@@ -84,3 +84,8 @@ small {
 .bg-color2 {
   background-color: $background-color2;
 }
+
+.messages {
+  border: 1px solid $secondary-text-color;
+  text-align: left;
+}
