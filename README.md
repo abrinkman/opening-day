@@ -43,8 +43,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-aws s3 sync dist s3://www.gamescoreapp.com/ --acl public-read --recursive
-www.gamescoreapp.com.s3-website-us-west-2.amazonaws.com
+aws s3 sync dist s3://www.openingday.com/ --acl public-read --recursive
+www.openingday.com.s3-website-us-west-2.amazonaws.com
 
 ## Further Reading / Useful Links
 

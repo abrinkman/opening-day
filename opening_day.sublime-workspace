@@ -583,14 +583,6 @@
 				"buffer_size": 48,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "/Users/alex/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 1376,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
@@ -669,8 +661,6 @@
 	},
 	"file_history":
 	[
-		"/Users/alex/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/alex/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_forms.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/templates/admin.hbs",
 		"/Users/alex/Documents/Websites/opening_day/app/controllers/admin.js",
@@ -796,7 +786,9 @@
 		"/Users/alex/Documents/Projects/slovnik/js/templates/word.handlebars",
 		"/Users/alex/Documents/Projects/slovnik/js/libs/jquery-1.10.2.min.js",
 		"/Users/alex/Documents/Projects/slovnik/js/templates/about.handlebars",
-		"/Users/alex/Documents/Projects/slovnik/js/templates/quiz.handlebars"
+		"/Users/alex/Documents/Projects/slovnik/js/templates/quiz.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/js/templates/index.handlebars",
+		"/Users/alex/Documents/Projects/slovnik/sass/partials/_forms.scss"
 	],
 	"find":
 	{
@@ -804,7 +796,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 106.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -975,6 +967,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1079,7 +1072,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 905.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1128,9 +1121,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1183,32 +1174,6 @@
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Users/alex/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-					"settings":
-					{
-						"buffer_size": 1376,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
