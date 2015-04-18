@@ -3,8 +3,10 @@
   <button {{action 'post'}} class="large">Post</button>
 </fieldset>
 
-<div class="messages">
+<div class="messages margin-bottom">
   {{#each message in model}}
-    <p><strong>{{message.timestamp}}</strong>{{message.message}}</p>
+    <p>{{message.message}}</p>
   {{/each}}
 </div>
+
+{{#link-to 'index'}}<button class="large">Scoreboard</button>{{/link-to}}

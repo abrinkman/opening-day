@@ -2,6 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
 
+  needs: ['messages'],
+
   actions : {
 
     update : function () {
@@ -44,6 +46,10 @@ export default Ember.Controller.extend({
       var model = this.get('content');
       model.set(field, value);
       model.save();
+    },
+
+    clearMessages : function() {
+      this.get('controllers.messages').send('clear');
     }
 
   },

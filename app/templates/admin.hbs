@@ -15,7 +15,7 @@
 <div class="bg-color2">
   <fieldset>
     <label>Balls</label>
-    <button {{action 'set' 'balls' '0'}}>clear</button>
+    <button {{action 'set' 'balls' 0}}>Clear</button>
     <button {{bind-attr class="ball1"}} {{action 'set' 'balls' 1}}>1</button>
     <button {{bind-attr class="ball2"}} {{action 'set' 'balls' 2}}>2</button>
     <button {{bind-attr class="ball3"}} {{action 'set' 'balls' 3}}>3</button>
@@ -23,14 +23,14 @@
 
   <fieldset>
     <label>Strikes</label>
-    <button {{action 'set' 'strikes' 0}}>clear</button>
+    <button {{action 'set' 'strikes' 0}}>Clear</button>
     <button {{bind-attr class="strike1"}} {{action 'set' 'strikes' 1}}>1</button>
     <button {{bind-attr class="strike2"}} {{action 'set' 'strikes' 2}}>2</button>
   </fieldset>
 
   <fieldset>
     <label>Outs</label>
-    <button {{action 'set' 'outs' 0}}>clear</button>
+    <button {{action 'set' 'outs' 0}}>Clear</button>
     <button {{bind-attr class="out1"}} {{action 'set' 'outs' 1}}>1</button>
     <button {{bind-attr class="out2"}} {{action 'set' 'outs' 2}}>2</button>
   </fieldset>
@@ -96,6 +96,13 @@
   <fieldset>
     <label>Batting</label>
     {{input type="text" value=model.atBat key-press="update"}}
+  </fieldset>
+</div>
+
+<div class="bg-color1">
+  <fieldset>
+    <label>Messages</label>
+    <button {{action 'clearMessages'}}>Clear</button>
   </fieldset>
 </div>
 

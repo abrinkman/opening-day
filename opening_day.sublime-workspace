@@ -523,7 +523,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1472,
+				"buffer_size": 1468,
 				"line_ending": "Unix"
 			}
 		},
@@ -540,15 +540,7 @@
 			"file": "app/templates/messages.hbs",
 			"settings":
 			{
-				"buffer_size": 293,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/_base.scss",
-			"settings":
-			{
-				"buffer_size": 1240,
+				"buffer_size": 310,
 				"line_ending": "Unix"
 			}
 		},
@@ -564,7 +556,7 @@
 			"file": "app/controllers/messages.js",
 			"settings":
 			{
-				"buffer_size": 441,
+				"buffer_size": 502,
 				"line_ending": "Unix"
 			}
 		},
@@ -572,15 +564,7 @@
 			"file": "app/routes/messages.js",
 			"settings":
 			{
-				"buffer_size": 132,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/application.hbs",
-			"settings":
-			{
-				"buffer_size": 48,
+				"buffer_size": 173,
 				"line_ending": "Unix"
 			}
 		}
@@ -661,6 +645,8 @@
 	},
 	"file_history":
 	[
+		"/Users/alex/Documents/Websites/opening_day/app/templates/application.hbs",
+		"/Users/alex/Documents/Websites/opening_day/app/styles/_base.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_forms.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/templates/admin.hbs",
 		"/Users/alex/Documents/Websites/opening_day/app/controllers/admin.js",
@@ -678,7 +664,6 @@
 		"/Users/alex/Documents/Websites/opening_day/app/helpers/inning-suffix.js",
 		"/Users/alex/Documents/Websites/opening_day/app/controllers/index.js",
 		"/Users/alex/Documents/Websites/opening_day/app/index.html",
-		"/Users/alex/Documents/Websites/opening_day/app/styles/_base.scss",
 		"/Users/alex/Documents/Websites/opening_day/node_modules/ember-cli/node_modules/findup/node_modules/colors/ReadMe.md",
 		"/Users/alex/Documents/Websites/opening_day/tests/unit/controllers/index-test.js",
 		"/Users/alex/Documents/Websites/opening_day/README.md",
@@ -688,7 +673,6 @@
 		"/Users/alex/Documents/Websites/opening_day/app/routes/admin.js",
 		"/Users/alex/Documents/Websites/opening_day/app/routes/index.js",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/app.scss",
-		"/Users/alex/Documents/Websites/opening_day/app/templates/application.hbs",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_responsive.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/_classes.scss",
 		"/Users/alex/Documents/Websites/opening_day/app/styles/app.css",
@@ -820,6 +804,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"message",
+			"gamescoreapp",
 			"bordered",
 			"score",
 			"inning",
@@ -945,9 +931,7 @@
 			">\n",
 			"form",
 			"newWor",
-			"...\"\n",
-			"resource",
-			"definition"
+			"...\"\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -967,7 +951,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -975,15 +959,15 @@
 					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 1472,
+						"buffer_size": 1468,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								579,
-								579
+								1045,
+								1098
 							]
 						],
 						"settings":
@@ -991,7 +975,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 208.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1028,15 +1012,15 @@
 					"file": "app/templates/messages.hbs",
 					"settings":
 					{
-						"buffer_size": 293,
+						"buffer_size": 310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								186,
-								193
+								301,
+								301
 							]
 						],
 						"settings":
@@ -1051,34 +1035,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/styles/_base.scss",
-					"settings":
-					{
-						"buffer_size": 1240,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1238,
-								1238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 905.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "app/models/message.js",
 					"settings":
 					{
@@ -1104,24 +1060,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "app/controllers/messages.js",
 					"settings":
 					{
-						"buffer_size": 441,
+						"buffer_size": 502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
+								487,
+								487
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1130,50 +1088,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "app/routes/messages.js",
 					"settings":
 					{
-						"buffer_size": 132,
+						"buffer_size": 173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122,
-								122
+								157,
+								157
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/templates/application.hbs",
-					"settings":
-					{
-						"buffer_size": 48,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								48,
-								48
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1699,7 +1631,7 @@
 		[
 			[
 				"",
-				"/Users/alex/Documents/Websites/mytennisstats/mytennisstats.sublime-project"
+				"/Users/alex/Documents/Websites/slovnik/slovnik.sublime-project"
 			]
 		],
 		"width": 380.0

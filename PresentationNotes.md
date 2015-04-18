@@ -18,6 +18,7 @@
     * http://emberjs.com/api/data/classes/DS.Adapter.html
   * model
   * Show offline support
+  * Bugs in adapter?
 
 
 ## Take a look at the firebase serializer and adapter
