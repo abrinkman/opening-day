@@ -2,9 +2,9 @@
 
 ## The goal of the application
 * To provide parents an easy way to keep up with the score of a baseball game.
+* Demo of the application.
 * Why Firebase?
   * What are the long term consequences of firebase?
-  *
 
 ## Installation steps
 * Sign up for a firebase account
@@ -19,7 +19,6 @@
   * model
   * Show offline support
   * Bugs in adapter?
-
 
 ## Take a look at the firebase serializer and adapter
 * node_modules/emberfire/addon/adapters

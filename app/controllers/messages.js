@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.ArrayController.extend({
-  sortProperties: ['content.message'],
-  sortAscending: true,
+  sortProperties: ['message'],
+  sortAscending: false,
 
   actions : {
     post : function () {
