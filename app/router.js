@@ -10,9 +10,4 @@ Router.map(function() {
   this.route('messages');
 });
 
-Router.reopen({
-  // Amazon s3 doesn't work with the auto routing, it will return a 403, forbidden.
-  location: 'hash'
-});
-
 export default Router;

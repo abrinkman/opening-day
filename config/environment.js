@@ -7,7 +7,7 @@ module.exports = function(environment) {
     contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
     firebase: 'https://crackling-heat-9715.firebaseio.com/',
     baseURL: '/',
-    locationType: 'auto',
+    locationType: 'hash', // Amazon s3 doesn't work with the auto routing, it will return a 403, forbidden.
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

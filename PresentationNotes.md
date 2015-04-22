@@ -33,3 +33,11 @@
   * https://www.firebase.com/docs/open-data/
 * Show firebase admin tools
   * https://crackling-heat-9715.firebaseio.com/
+* Advise on URLs with amazon s3.
+
+* An app with:
+  Realtime communication
+  No backend setup
+  No front end hosting costs
+  Easy deploy
+
