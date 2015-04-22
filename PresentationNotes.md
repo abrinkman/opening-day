@@ -26,3 +26,10 @@
   * http://emberjs.com/api/data/classes/DS.Adapter.html
 * Upgraded http connection (on web socket connection)
 * Making a change, rebuilding, publishing.
+
+## Other
+* Show websockets frames where the data is being sent.
+* Open data sets for firebase
+  * https://www.firebase.com/docs/open-data/
+* Show firebase admin tools
+  * https://crackling-heat-9715.firebaseio.com/
