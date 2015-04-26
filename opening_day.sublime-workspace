@@ -531,7 +531,7 @@
 			"file": "PresentationNotes.md",
 			"settings":
 			{
-				"buffer_size": 1034,
+				"buffer_size": 1338,
 				"line_ending": "Unix",
 				"name": "Presentation Notes.txt"
 			}
@@ -581,7 +581,7 @@
 			"file": "app/styles/app.scss",
 			"settings":
 			{
-				"buffer_size": 72,
+				"buffer_size": 77,
 				"line_ending": "Unix"
 			}
 		},
@@ -598,6 +598,39 @@
 			"settings":
 			{
 				"buffer_size": 297,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_colors-dark.scss",
+			"settings":
+			{
+				"buffer_size": 180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_colors-light.scss",
+			"settings":
+			{
+				"buffer_size": 180,
+				"line_ending": "Unix",
+				"name": "$background-color1: #eff1f5;"
+			}
+		},
+		{
+			"file": "app/router.js",
+			"settings":
+			{
+				"buffer_size": 244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environment.js",
+			"settings":
+			{
+				"buffer_size": 1298,
 				"line_ending": "Unix"
 			}
 		}
@@ -837,6 +870,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"S3",
 			"Game",
 			"narrow",
 			"bg-color1",
@@ -963,8 +997,7 @@
 			"quiz.show",
 			"quiz.index",
 			"(\n",
-			"debugger;",
-			"post"
+			"debugger;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -984,6 +1017,7 @@
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -1007,7 +1041,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 157.0,
+						"translation.y": 206.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1017,15 +1051,15 @@
 					"file": "PresentationNotes.md",
 					"settings":
 					{
-						"buffer_size": 1034,
+						"buffer_size": 1338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								994,
-								994
+								0,
+								1338
 							]
 						],
 						"settings":
@@ -1053,8 +1087,8 @@
 						"selection":
 						[
 							[
-								4999,
-								4999
+								477,
+								477
 							]
 						],
 						"settings":
@@ -1185,15 +1219,15 @@
 					"file": "app/styles/app.scss",
 					"settings":
 					{
-						"buffer_size": 72,
+						"buffer_size": 77,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								20,
+								20
 							]
 						],
 						"settings":
@@ -1261,6 +1295,113 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/styles/_colors-dark.scss",
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/styles/_colors-light.scss",
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"auto_name": "$background-color1: #eff1f5;",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/router.js",
+					"settings":
+					{
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "config/environment.js",
+					"settings":
+					{
+						"buffer_size": 1298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1311,6 +1452,14 @@
 		"selected_items":
 		[
 			[
+				"app.",
+				"app/styles/app.scss"
+			],
+			[
+				"color",
+				"app/styles/_colors.scss"
+			],
+			[
 				"innin",
 				"app/helpers/inning-suffix.js"
 			],
@@ -1329,10 +1478,6 @@
 			[
 				"index",
 				"app/templates/index.hbs"
-			],
-			[
-				"color",
-				"app/styles/_colors.scss"
 			],
 			[
 				"read",
@@ -1797,6 +1942,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 269.0,
+	"side_bar_width": 413.0,
 	"status_bar_visible": true
 }

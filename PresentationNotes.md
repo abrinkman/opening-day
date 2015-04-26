@@ -22,7 +22,7 @@
 
 ## Take a look at the firebase serializer and adapter
 * node_modules/emberfire/addon/adapters
-* basic flow of data in serializers and adapters
+* basic flow of data in adapters
   * http://emberjs.com/api/data/classes/DS.Adapter.html
 * Upgraded http connection (on web socket connection)
 * Making a change, rebuilding, publishing.
@@ -34,6 +34,7 @@
 * Show firebase admin tools
   * https://crackling-heat-9715.firebaseio.com/
 * Advise on URLs with amazon s3.
+* Discussion of using Firebase for a real product.
 
 * An app with:
   Realtime communication
